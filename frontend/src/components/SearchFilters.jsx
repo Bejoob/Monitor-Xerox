@@ -7,6 +7,8 @@ export default function SearchFilters({
   onLocationChange,
   locations,
 }) {
+  const safeLocations = Array.isArray(locations) ? locations : [];
+
   return (
     <div className="bg-white rounded-2xl shadow-sm border border-slate-200 p-4 flex flex-col sm:flex-row gap-4">
       <div className="flex-1 relative">
@@ -38,7 +40,7 @@ export default function SearchFilters({
         className="px-4 py-2.5 rounded-xl border border-slate-200 bg-white focus:ring-2 focus:ring-xerox-red/30 focus:border-xerox-red outline-none min-w-[160px]"
       >
         <option value="all">Todas as unidades</option>
-        {locations.map((loc) => (
+        {safeLocations.map((loc) => (
           <option key={loc} value={loc}>{loc}</option>
         ))}
       </select>

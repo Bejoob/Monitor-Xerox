@@ -38,6 +38,8 @@ export default function PrinterDetail() {
       setPrinter(data);
       setLiveData(data.lastSupplies);
     } catch (err) {
+      setPrinter(null);
+      setLiveData(null);
       setMessage({ type: 'error', text: err.message });
     } finally {
       setLoading(false);
@@ -118,7 +120,9 @@ export default function PrinterDetail() {
     ? (liveData.online ? 'online' : 'offline')
     : getOnlineStatus(printer);
   const supplies = liveData?.supplies || printer.lastSupplies?.supplies;
-  const trays = liveData?.trays || printer.lastSupplies?.trays || [];
+  const traysSource = liveData?.trays || printer.lastSupplies?.trays;
+  const trays = Array.isArray(traysSource) ? traysSource : [];
+  const otherSupplies = Array.isArray(liveData?.otherSupplies) ? liveData.otherSupplies : [];
   const deviceName = liveData?.deviceName || printer.lastStatus?.deviceName;
   const error = liveData?.error || printer.lastStatus?.error;
 
@@ -225,11 +229,11 @@ export default function PrinterDetail() {
             </div>
           )}
 
-          {liveData?.otherSupplies?.length > 0 && (
+          {otherSupplies.length > 0 && (
             <div className="mt-6">
               <h4 className="text-sm font-semibold text-slate-700 mb-3">Outros suprimentos detectados</h4>
               <div className="grid sm:grid-cols-2 gap-4">
-                {liveData.otherSupplies.map((s, i) => (
+                {otherSupplies.map((s, i) => (
                   <SupplyBar key={i} label={s.name || `Suprimento ${i + 1}`} supply={s} />
                 ))}
               </div>

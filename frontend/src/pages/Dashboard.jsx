@@ -7,6 +7,13 @@ import { filterPrinters, getOnlineStatus } from '../utils/supplies';
 
 const REFRESH_INTERVAL = 5 * 60 * 1000;
 
+function normalizePrintersPayload(payload) {
+  if (Array.isArray(payload)) return payload;
+  if (Array.isArray(payload?.printers)) return payload.printers;
+  if (Array.isArray(payload?.data)) return payload.data;
+  return [];
+}
+
 export default function Dashboard() {
   const [printers, setPrinters] = useState([]);
   const [loading, setLoading] = useState(true);
@@ -19,8 +26,9 @@ export default function Dashboard() {
   const loadPrinters = useCallback(async () => {
     try {
       const data = await api.getPrinters();
-      setPrinters(data);
+      setPrinters(normalizePrintersPayload(data));
     } catch (err) {
+      setPrinters([]);
       setMessage({ type: 'error', text: err.message });
     } finally {
       setLoading(false);
@@ -28,7 +36,7 @@ export default function Dashboard() {
   }, []);
 
   const refreshAll = useCallback(async () => {
-    const list = await api.getPrinters().catch(() => []);
+    const list = normalizePrintersPayload(await api.getPrinters().catch(() => []));
     for (const p of list) {
       try {
         await api.refreshPrinter(p.id);
@@ -49,7 +57,7 @@ export default function Dashboard() {
   }, [refreshAll]);
 
   const locations = useMemo(
-    () => [...new Set(printers.map((p) => p.location).filter(Boolean))].sort(),
+    () => [...new Set((Array.isArray(printers) ? printers : []).map((p) => p?.location).filter(Boolean))].sort(),
     [printers]
   );
 
@@ -164,7 +172,7 @@ export default function Dashboard() {
           </div>
         ) : (
           <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
-            {filtered.map((printer) => (
+            {(Array.isArray(filtered) ? filtered : []).map((printer) => (
               <PrinterCard
                 key={printer.id}
                 printer={printer}
