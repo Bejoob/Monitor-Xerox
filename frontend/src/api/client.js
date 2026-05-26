@@ -1,5 +1,13 @@
 const API_BASE = '/api';
 
+function normalizeArrayPayload(payload) {
+  if (Array.isArray(payload)) return payload;
+  if (Array.isArray(payload?.printers)) return payload.printers;
+  if (Array.isArray(payload?.items)) return payload.items;
+  if (Array.isArray(payload?.data)) return payload.data;
+  return [];
+}
+
 async function request(path, options = {}) {
   const res = await fetch(`${API_BASE}${path}`, {
     headers: { 'Content-Type': 'application/json', ...options.headers },
@@ -14,7 +22,7 @@ async function request(path, options = {}) {
 }
 
 export const api = {
-  getPrinters: () => request('/printers'),
+  getPrinters: async () => normalizeArrayPayload(await request('/printers')),
   getPrinter: (id) => request(`/printers/${id}`),
   createPrinter: (body) => request('/printers', { method: 'POST', body: JSON.stringify(body) }),
   updatePrinter: (id, body) => request(`/printers/${id}`, { method: 'PUT', body: JSON.stringify(body) }),
