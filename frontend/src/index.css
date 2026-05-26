@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-slate-50 text-slate-900 antialiased;
+  }
+}
+
+@layer utilities {
+  .alert-green { @apply bg-emerald-500; }
+  .alert-yellow { @apply bg-amber-400; }
+  .alert-red { @apply bg-red-500; }
+  .alert-unavailable { @apply bg-slate-300; }
+}

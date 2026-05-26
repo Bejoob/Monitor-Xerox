@@ -1,0 +1,6142 @@
+[
+  {
+    "id": "ddf19414-053a-443f-99cb-1d240cc09b5e",
+    "name": "SP-TBLP-CDE-F1",
+    "model": "B620",
+    "ip": "10.33.247.98",
+    "location": "CDE",
+    "type": "monochrome",
+    "snmpCommunity": null,
+    "createdAt": "2026-05-25T16:34:32.231Z",
+    "lastStatus": {
+      "online": true,
+      "deviceName": "SP-TBLP-CDE-F1",
+      "systemDescription": "Xerox VersaLink B620; SS 122.027.025.24501, NC 122.027.24501, UI 122.027.24501, ME 230.334, CC 122.027.24501, FI 000.000.000, OS 230.334, SU 005.016",
+      "lastChecked": "2026-05-26T21:54:52.495Z"
+    },
+    "lastSupplies": {
+      "online": true,
+      "deviceName": "SP-TBLP-CDE-F1",
+      "systemDescription": "Xerox VersaLink B620; SS 122.027.025.24501, NC 122.027.24501, UI 122.027.24501, ME 230.334, CC 122.027.24501, FI 000.000.000, OS 230.334, SU 005.016",
+      "lastChecked": "2026-05-26T21:54:52.495Z",
+      "supplies": {
+        "blackToner": {
+          "name": "Black Toner, PN ;SNCAD242290AF5",
+          "level": 7000,
+          "maxCapacity": 10000,
+          "percentage": 70,
+          "display": "70%",
+          "alertLevel": "green",
+          "available": true
+        },
+        "cyanToner": {
+          "name": "Toner Ciano",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "magentaToner": {
+          "name": "Toner Magenta",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "yellowToner": {
+          "name": "Toner Amarelo",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "fuser": {
+          "name": "Fusor",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "drum": {
+          "name": "Cilindro",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "transferUnit": {
+          "name": "Unidade de Transferência",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "wasteToner": {
+          "name": "Resíduo de Toner",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        }
+      },
+      "otherSupplies": [
+        {
+          "name": "Black Imaging Unit, PN  013R00699;SNCAD242342307",
+          "level": 100,
+          "maxCapacity": 100,
+          "percentage": 100,
+          "display": "100%",
+          "alertLevel": "green",
+          "available": true
+        }
+      ],
+      "trays": [
+        {
+          "name": "Tray 1",
+          "status": "OK",
+          "quantity": "100%",
+          "paperType": "Tray 1",
+          "level": 550,
+          "maxCapacity": 550,
+          "percentage": 100,
+          "alertLevel": "green",
+          "available": true
+        },
+        {
+          "name": "Bypass Tray",
+          "status": "Vazio",
+          "quantity": "0%",
+          "paperType": "Bypass Tray",
+          "level": 0,
+          "maxCapacity": 100,
+          "percentage": 0,
+          "alertLevel": "red",
+          "available": true
+        }
+      ],
+      "rawSupplyCount": 2,
+      "lastUpdated": "2026-05-26T21:54:52.532Z"
+    }
+  },
+  {
+    "id": "a332c48a-034d-4f94-892c-082f828bb1b9",
+    "name": "SP-TBLC-XER-F10",
+    "model": "C400",
+    "ip": "10.33.247.50",
+    "location": "Suporte de Eletromecânica",
+    "type": "color",
+    "snmpCommunity": null,
+    "createdAt": "2026-05-25T16:57:10.726Z",
+    "lastStatus": {
+      "online": true,
+      "deviceName": "SP-TBLC-XER-F10",
+      "systemDescription": "Xerox VersaLink C400; System 67.59.1, Controller 1.69.0, IOT 3.4.0, Panel 91.16.11, Boot 11.1.219, Contents 5.0.0, Plugin 3.0.1, RSEP 1.8.25",
+      "lastChecked": "2026-05-26T21:54:52.682Z"
+    },
+    "lastSupplies": {
+      "online": true,
+      "deviceName": "SP-TBLC-XER-F10",
+      "systemDescription": "Xerox VersaLink C400; System 67.59.1, Controller 1.69.0, IOT 3.4.0, Panel 91.16.11, Boot 11.1.219, Contents 5.0.0, Plugin 3.0.1, RSEP 1.8.25",
+      "lastChecked": "2026-05-26T21:54:52.682Z",
+      "supplies": {
+        "blackToner": {
+          "name": "Cartucho de toner preto, PN 106R03532;SNB400AC0011060000",
+          "level": 7770,
+          "maxCapacity": 10500,
+          "percentage": 74,
+          "display": "74%",
+          "alertLevel": "green",
+          "available": true
+        },
+        "cyanToner": {
+          "name": "Cartucho de toner ciano, PN 106R03534;SN8800830010110000",
+          "level": 3840,
+          "maxCapacity": 8000,
+          "percentage": 48,
+          "display": "48%",
+          "alertLevel": "yellow",
+          "available": true
+        },
+        "magentaToner": {
+          "name": "Cartucho de toner magenta, PN 106R03535;SNCB00CA003D0B0000",
+          "level": 7840,
+          "maxCapacity": 8000,
+          "percentage": 98,
+          "display": "98%",
+          "alertLevel": "green",
+          "available": true
+        },
+        "yellowToner": {
+          "name": "Cartucho de toner amarelo, PN 106R03533;SNE100440010130000",
+          "level": 2160,
+          "maxCapacity": 8000,
+          "percentage": 27,
+          "display": "27%",
+          "alertLevel": "yellow",
+          "available": true
+        },
+        "fuser": {
+          "name": "Fusor, PN 115R00088",
+          "level": -3,
+          "maxCapacity": -2,
+          "percentage": null,
+          "display": "Não informado pelo equipamento",
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "drum": {
+          "name": "Cilindro",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "transferUnit": {
+          "name": "Unidade de Transferência",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "wasteToner": {
+          "name": "Cartucho de resíduos, PN 108R01124",
+          "level": -3,
+          "maxCapacity": -2,
+          "percentage": null,
+          "display": "Não informado pelo equipamento",
+          "alertLevel": "unavailable",
+          "available": false
+        }
+      },
+      "otherSupplies": [
+        {
+          "name": "Kit de manutenção, PN 108R01122",
+          "level": -3,
+          "maxCapacity": -2,
+          "percentage": null,
+          "display": "Não informado pelo equipamento",
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        {
+          "name": "Kit de cartucho do fotorreceptor, PN 108R01121",
+          "level": 48000,
+          "maxCapacity": 60000,
+          "percentage": 80,
+          "display": "80%",
+          "alertLevel": "green",
+          "available": true
+        }
+      ],
+      "trays": [
+        {
+          "name": "Bandeja 1",
+          "status": "OK",
+          "quantity": "90%",
+          "paperType": "Bandeja 1",
+          "level": -3,
+          "maxCapacity": 550,
+          "percentage": 90,
+          "alertLevel": "green",
+          "available": true
+        },
+        {
+          "name": "Bandeja manual",
+          "status": "Vazio",
+          "quantity": "0%",
+          "paperType": "Bandeja manual",
+          "level": 0,
+          "maxCapacity": 150,
+          "percentage": 0,
+          "alertLevel": "red",
+          "available": true
+        }
+      ],
+      "rawSupplyCount": 8,
+      "lastUpdated": "2026-05-26T21:54:52.730Z"
+    }
+  },
+  {
+    "id": "ca343930-6ec6-4fcf-86e1-29bc72aef5bc",
+    "name": "MOD3-1LC-G1-F1",
+    "model": "C415",
+    "ip": "10.33.247.89",
+    "location": "GLOBO.COM",
+    "type": "color",
+    "snmpCommunity": null,
+    "createdAt": "2026-05-25T16:59:36.562Z",
+    "lastStatus": {
+      "online": true,
+      "deviceName": "MOD3-1LC-G1-F1",
+      "systemDescription": "Xerox VersaLink C415 Color; SS 120.028.003.20001, NC 120.028.20001, UI 120.028.20001, ME 221.133b, CC 120.028.20001, DF 221.133b, FI 000.000.000, FA 003.019.002, OS 120.003.20001, SC 221.133b, SU 003.012",
+      "lastChecked": "2026-05-26T21:54:52.850Z"
+    },
+    "lastSupplies": {
+      "online": true,
+      "deviceName": "MOD3-1LC-G1-F1",
+      "systemDescription": "Xerox VersaLink C415 Color; SS 120.028.003.20001, NC 120.028.20001, UI 120.028.20001, ME 221.133b, CC 120.028.20001, DF 221.133b, FI 000.000.000, FA 003.019.002, OS 120.003.20001, SC 221.133b, SU 003.012",
+      "lastChecked": "2026-05-26T21:54:52.850Z",
+      "supplies": {
+        "blackToner": {
+          "name": "Black Toner, PN  006R04693;SNCAB251894011",
+          "level": 15000,
+          "maxCapacity": 15000,
+          "percentage": 100,
+          "display": "100%",
+          "alertLevel": "green",
+          "available": true
+        },
+        "cyanToner": {
+          "name": "Cyan Toner, PN ;SNCAB24060756C",
+          "level": 1700,
+          "maxCapacity": 2000,
+          "percentage": 85,
+          "display": "85%",
+          "alertLevel": "green",
+          "available": true
+        },
+        "magentaToner": {
+          "name": "Magenta Toner, PN ;SNCAB2405854CB",
+          "level": 1680,
+          "maxCapacity": 2000,
+          "percentage": 84,
+          "display": "84%",
+          "alertLevel": "green",
+          "available": true
+        },
+        "yellowToner": {
+          "name": "Yellow Toner, PN ;SNCAB2405958C2",
+          "level": 1700,
+          "maxCapacity": 2000,
+          "percentage": 85,
+          "display": "85%",
+          "alertLevel": "green",
+          "available": true
+        },
+        "fuser": {
+          "name": "Fusor",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "drum": {
+          "name": "Cilindro",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "transferUnit": {
+          "name": "Unidade de Transferência",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "wasteToner": {
+          "name": "Resíduo de Toner",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        }
+      },
+      "otherSupplies": [
+        {
+          "name": "Imaging kit, PN  013R00701;SNCAH241180D78",
+          "level": 100,
+          "maxCapacity": 100,
+          "percentage": 100,
+          "display": "100%",
+          "alertLevel": "green",
+          "available": true
+        },
+        {
+          "name": "Waste Toner Container, PN 008R13335;SNunknown",
+          "level": 100,
+          "maxCapacity": 100,
+          "percentage": 100,
+          "display": "100%",
+          "alertLevel": "green",
+          "available": true
+        }
+      ],
+      "trays": [
+        {
+          "name": "Tray 1",
+          "status": "OK",
+          "quantity": "100%",
+          "paperType": "Tray 1",
+          "level": 250,
+          "maxCapacity": 250,
+          "percentage": 100,
+          "alertLevel": "green",
+          "available": true
+        },
+        {
+          "name": "Manual Feeder",
+          "status": "Vazio",
+          "quantity": "0%",
+          "paperType": "Manual Feeder",
+          "level": 0,
+          "maxCapacity": 1,
+          "percentage": 0,
+          "alertLevel": "red",
+          "available": true
+        }
+      ],
+      "rawSupplyCount": 6,
+      "lastUpdated": "2026-05-26T21:54:52.895Z"
+    },
+    "updatedAt": "2026-05-25T17:00:51.372Z"
+  },
+  {
+    "id": "51d586f9-caf7-4f4a-905a-5ab28da7e8aa",
+    "name": "IMP-INWS-GSTU-1",
+    "model": "B620",
+    "ip": "10.33.247.175",
+    "location": "GLASS",
+    "type": "monochrome",
+    "snmpCommunity": null,
+    "createdAt": "2026-05-25T17:08:16.519Z",
+    "lastStatus": {
+      "online": true,
+      "deviceName": "Xerox VersaLink B620 Printer (FF:83:1C)",
+      "systemDescription": "Xerox VersaLink B620; SS 122.027.025.24501, NC 122.027.24501, UI 122.027.24501, ME 230.334, CC 122.027.24501, FI 000.000.000, OS 230.334, SU 005.016",
+      "lastChecked": "2026-05-26T21:54:53.011Z"
+    },
+    "lastSupplies": {
+      "online": true,
+      "deviceName": "Xerox VersaLink B620 Printer (FF:83:1C)",
+      "systemDescription": "Xerox VersaLink B620; SS 122.027.025.24501, NC 122.027.24501, UI 122.027.24501, ME 230.334, CC 122.027.24501, FI 000.000.000, OS 230.334, SU 005.016",
+      "lastChecked": "2026-05-26T21:54:53.011Z",
+      "supplies": {
+        "blackToner": {
+          "name": "Black Toner, PN ;SNCAD242290970",
+          "level": 8500,
+          "maxCapacity": 10000,
+          "percentage": 85,
+          "display": "85%",
+          "alertLevel": "green",
+          "available": true
+        },
+        "cyanToner": {
+          "name": "Toner Ciano",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "magentaToner": {
+          "name": "Toner Magenta",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "yellowToner": {
+          "name": "Toner Amarelo",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "fuser": {
+          "name": "Fusor",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "drum": {
+          "name": "Cilindro",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "transferUnit": {
+          "name": "Unidade de Transferência",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "wasteToner": {
+          "name": "Resíduo de Toner",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        }
+      },
+      "otherSupplies": [
+        {
+          "name": "Black Imaging Unit, PN  013R00699;SNCAD242401050",
+          "level": 100,
+          "maxCapacity": 100,
+          "percentage": 100,
+          "display": "100%",
+          "alertLevel": "green",
+          "available": true
+        }
+      ],
+      "trays": [
+        {
+          "name": "Tray 1",
+          "status": "OK",
+          "quantity": "100%",
+          "paperType": "Tray 1",
+          "level": 550,
+          "maxCapacity": 550,
+          "percentage": 100,
+          "alertLevel": "green",
+          "available": true
+        },
+        {
+          "name": "Bypass Tray",
+          "status": "Vazio",
+          "quantity": "0%",
+          "paperType": "Bypass Tray",
+          "level": 0,
+          "maxCapacity": 100,
+          "percentage": 0,
+          "alertLevel": "red",
+          "available": true
+        }
+      ],
+      "rawSupplyCount": 2,
+      "lastUpdated": "2026-05-26T21:54:53.018Z"
+    }
+  },
+  {
+    "id": "28f4a9f5-5f24-4cea-b9ed-fb049b1f2ec4",
+    "name": "MOD3-1LC-G1-F2",
+    "model": "C400",
+    "ip": "10.33.247.40",
+    "location": "G1",
+    "type": "color",
+    "snmpCommunity": null,
+    "createdAt": "2026-05-25T19:04:36.143Z",
+    "lastStatus": {
+      "online": true,
+      "deviceName": "MOD3-1LC-G1-F2",
+      "systemDescription": "Xerox VersaLink C400; System 67.59.1, Controller 1.69.0, IOT 3.4.0, Panel 91.16.11, Boot 11.1.219, Contents 5.0.0, Plugin 3.0.1, RSEP 1.8.25",
+      "lastChecked": "2026-05-26T21:54:53.166Z"
+    },
+    "lastSupplies": {
+      "online": true,
+      "deviceName": "MOD3-1LC-G1-F2",
+      "systemDescription": "Xerox VersaLink C400; System 67.59.1, Controller 1.69.0, IOT 3.4.0, Panel 91.16.11, Boot 11.1.219, Contents 5.0.0, Plugin 3.0.1, RSEP 1.8.25",
+      "lastChecked": "2026-05-26T21:54:53.166Z",
+      "supplies": {
+        "blackToner": {
+          "name": "Cartucho de toner preto, PN 106R03532;SN2D00700023100000",
+          "level": 7980,
+          "maxCapacity": 10500,
+          "percentage": 76,
+          "display": "76%",
+          "alertLevel": "green",
+          "available": true
+        },
+        "cyanToner": {
+          "name": "Cartucho de toner ciano, PN 106R03534;SN3300510013140000",
+          "level": 1120,
+          "maxCapacity": 8000,
+          "percentage": 14,
+          "display": "14%",
+          "alertLevel": "red",
+          "available": true
+        },
+        "magentaToner": {
+          "name": "Cartucho de toner magenta, PN 106R03535;SN0B00550006100000",
+          "level": 720,
+          "maxCapacity": 8000,
+          "percentage": 9,
+          "display": "9%",
+          "alertLevel": "red",
+          "available": true
+        },
+        "yellowToner": {
+          "name": "Cartucho de toner amarelo, PN 106R03533;SN62009900150E0000",
+          "level": 3200,
+          "maxCapacity": 8000,
+          "percentage": 40,
+          "display": "40%",
+          "alertLevel": "yellow",
+          "available": true
+        },
+        "fuser": {
+          "name": "Fusor, PN 115R00088",
+          "level": -3,
+          "maxCapacity": -2,
+          "percentage": null,
+          "display": "Não informado pelo equipamento",
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "drum": {
+          "name": "Cilindro",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "transferUnit": {
+          "name": "Unidade de Transferência",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "wasteToner": {
+          "name": "Cartucho de resíduos, PN 108R01124",
+          "level": -3,
+          "maxCapacity": -2,
+          "percentage": null,
+          "display": "Não informado pelo equipamento",
+          "alertLevel": "unavailable",
+          "available": false
+        }
+      },
+      "otherSupplies": [
+        {
+          "name": "Kit de manutenção, PN 108R01122",
+          "level": -3,
+          "maxCapacity": -2,
+          "percentage": null,
+          "display": "Não informado pelo equipamento",
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        {
+          "name": "Kit de cartucho do fotorreceptor, PN 108R01121",
+          "level": 0,
+          "maxCapacity": 60000,
+          "percentage": 0,
+          "display": "0%",
+          "alertLevel": "red",
+          "available": true
+        }
+      ],
+      "trays": [
+        {
+          "name": "Bandeja 1",
+          "status": "OK",
+          "quantity": "90%",
+          "paperType": "Bandeja 1",
+          "level": -3,
+          "maxCapacity": 550,
+          "percentage": 90,
+          "alertLevel": "green",
+          "available": true
+        },
+        {
+          "name": "Bandeja manual",
+          "status": "Vazio",
+          "quantity": "0%",
+          "paperType": "Bandeja manual",
+          "level": 0,
+          "maxCapacity": 150,
+          "percentage": 0,
+          "alertLevel": "red",
+          "available": true
+        }
+      ],
+      "rawSupplyCount": 8,
+      "lastUpdated": "2026-05-26T21:54:53.216Z"
+    }
+  },
+  {
+    "id": "a94a1016-0439-40c9-a30d-d3dfd1fa7c94",
+    "name": "IMP-INWS-ESP-1",
+    "model": "B405",
+    "ip": "10.33.247.12",
+    "location": "Esporte",
+    "type": "monochrome",
+    "snmpCommunity": null,
+    "createdAt": "2026-05-25T19:06:29.112Z",
+    "lastStatus": {
+      "online": true,
+      "deviceName": "IMP-INWS-ESP-1",
+      "systemDescription": "Xerox VersaLink B405; System 38.42.1, Controller 1.50.8, IOT 2.7.0, ADF 1.0.10, Fax 104.7.0, Panel 91.16.11, Boot 11.1.207, Contents 5.0.0, Plugin 3.0.1, RSEP 1.8.23",
+      "lastChecked": "2026-05-26T21:54:53.384Z"
+    },
+    "lastSupplies": {
+      "online": true,
+      "deviceName": "IMP-INWS-ESP-1",
+      "systemDescription": "Xerox VersaLink B405; System 38.42.1, Controller 1.50.8, IOT 2.7.0, ADF 1.0.10, Fax 104.7.0, Panel 91.16.11, Boot 11.1.207, Contents 5.0.0, Plugin 3.0.1, RSEP 1.8.23",
+      "lastChecked": "2026-05-26T21:54:53.384Z",
+      "supplies": {
+        "blackToner": {
+          "name": "Toner Preto",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "cyanToner": {
+          "name": "Toner Ciano",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "magentaToner": {
+          "name": "Toner Magenta",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "yellowToner": {
+          "name": "Toner Amarelo",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "fuser": {
+          "name": "Fusor",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "drum": {
+          "name": "Cilindro",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "transferUnit": {
+          "name": "Unidade de Transferência",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "wasteToner": {
+          "name": "Resíduo de Toner",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        }
+      },
+      "otherSupplies": [
+        {
+          "name": "Cartucho de toner, PN 106R03585;SNAA00D20003120000",
+          "level": 12546,
+          "maxCapacity": 24600,
+          "percentage": 51,
+          "display": "51%",
+          "alertLevel": "green",
+          "available": true
+        },
+        {
+          "name": "Cartucho do fotorreceptor, PN 101R00554;SN3000A80018050000",
+          "level": 0,
+          "maxCapacity": 85000,
+          "percentage": 0,
+          "display": "0%",
+          "alertLevel": "red",
+          "available": true
+        },
+        {
+          "name": "Kit de manutenção, PN 115R00119",
+          "level": -3,
+          "maxCapacity": -2,
+          "percentage": null,
+          "display": "Não informado pelo equipamento",
+          "alertLevel": "unavailable",
+          "available": false
+        }
+      ],
+      "trays": [
+        {
+          "name": "Bandeja 1",
+          "status": "OK",
+          "quantity": "70%",
+          "paperType": "Bandeja 1",
+          "level": -3,
+          "maxCapacity": 550,
+          "percentage": 70,
+          "alertLevel": "green",
+          "available": true
+        },
+        {
+          "name": "Bandeja manual",
+          "status": "Vazio",
+          "quantity": "0%",
+          "paperType": "Bandeja manual",
+          "level": 0,
+          "maxCapacity": 150,
+          "percentage": 0,
+          "alertLevel": "red",
+          "available": true
+        }
+      ],
+      "rawSupplyCount": 3,
+      "lastUpdated": "2026-05-26T21:54:53.416Z"
+    }
+  },
+  {
+    "id": "6b922efd-1464-48ca-942b-b13c08c6f515",
+    "name": "SP-TBLC-XER-F5",
+    "model": "C415",
+    "ip": "10.33.247.54",
+    "location": "Laboratório RF",
+    "type": "color",
+    "snmpCommunity": null,
+    "createdAt": "2026-05-25T19:08:19.441Z",
+    "lastStatus": {
+      "online": true,
+      "deviceName": "SP-TBLC-XER-F5",
+      "systemDescription": "Xerox VersaLink C415 Color; SS 120.028.003.20001, NC 120.028.20001, UI 120.028.20001, ME 221.133b, CC 120.028.20001, DF 221.133b, FI 000.000.000, FA 003.019.002, OS 120.003.20001, SC 221.133b, SU 003.012",
+      "lastChecked": "2026-05-26T21:54:53.498Z"
+    },
+    "lastSupplies": {
+      "online": true,
+      "deviceName": "SP-TBLC-XER-F5",
+      "systemDescription": "Xerox VersaLink C415 Color; SS 120.028.003.20001, NC 120.028.20001, UI 120.028.20001, ME 221.133b, CC 120.028.20001, DF 221.133b, FI 000.000.000, FA 003.019.002, OS 120.003.20001, SC 221.133b, SU 003.012",
+      "lastChecked": "2026-05-26T21:54:53.498Z",
+      "supplies": {
+        "blackToner": {
+          "name": "Black Toner, PN ;SNCAB240101C1B",
+          "level": 2016,
+          "maxCapacity": 2400,
+          "percentage": 84,
+          "display": "84%",
+          "alertLevel": "green",
+          "available": true
+        },
+        "cyanToner": {
+          "name": "Cyan Toner, PN ;SNCAB233412219",
+          "level": 1720,
+          "maxCapacity": 2000,
+          "percentage": 86,
+          "display": "86%",
+          "alertLevel": "green",
+          "available": true
+        },
+        "magentaToner": {
+          "name": "Magenta Toner, PN ;SNCAB240172949",
+          "level": 1800,
+          "maxCapacity": 2000,
+          "percentage": 90,
+          "display": "90%",
+          "alertLevel": "green",
+          "available": true
+        },
+        "yellowToner": {
+          "name": "Yellow Toner, PN ;SNCAB233451241",
+          "level": 2000,
+          "maxCapacity": 2000,
+          "percentage": 100,
+          "display": "100%",
+          "alertLevel": "green",
+          "available": true
+        },
+        "fuser": {
+          "name": "Fusor",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "drum": {
+          "name": "Cilindro",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "transferUnit": {
+          "name": "Unidade de Transferência",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "wasteToner": {
+          "name": "Resíduo de Toner",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        }
+      },
+      "otherSupplies": [
+        {
+          "name": "Imaging kit, PN  013R00701;SNCAH24011132F",
+          "level": 100,
+          "maxCapacity": 100,
+          "percentage": 100,
+          "display": "100%",
+          "alertLevel": "green",
+          "available": true
+        },
+        {
+          "name": "Waste Toner Container, PN 008R13335;SNunknown",
+          "level": 100,
+          "maxCapacity": 100,
+          "percentage": 100,
+          "display": "100%",
+          "alertLevel": "green",
+          "available": true
+        }
+      ],
+      "trays": [
+        {
+          "name": "Tray 1",
+          "status": "OK",
+          "quantity": "100%",
+          "paperType": "Tray 1",
+          "level": 250,
+          "maxCapacity": 250,
+          "percentage": 100,
+          "alertLevel": "green",
+          "available": true
+        },
+        {
+          "name": "Manual Feeder",
+          "status": "Vazio",
+          "quantity": "0%",
+          "paperType": "Manual Feeder",
+          "level": 0,
+          "maxCapacity": 1,
+          "percentage": 0,
+          "alertLevel": "red",
+          "available": true
+        }
+      ],
+      "rawSupplyCount": 6,
+      "lastUpdated": "2026-05-26T21:54:53.546Z"
+    }
+  },
+  {
+    "id": "db3b9cde-a7d3-4123-94bc-18545de96670",
+    "name": "SP-TBLC-XER-F8",
+    "model": "C405",
+    "ip": "10.33.247.66",
+    "location": "Setor Oper. Externa",
+    "type": "color",
+    "snmpCommunity": null,
+    "createdAt": "2026-05-25T19:13:13.628Z",
+    "lastStatus": {
+      "online": true,
+      "deviceName": "SP-TBLC-XER-F8",
+      "systemDescription": "Xerox VersaLink C405; System 68.71.21, Controller 1.90.3, IOT 3.5.0, ADF 42.0.0, Fax 104.8.0, Panel 91.16.11, Boot 11.1.225, Contents 5.0.0, Plugin 3.0.1, RSEP 1.8.25",
+      "lastChecked": "2026-05-26T21:54:53.698Z"
+    },
+    "lastSupplies": {
+      "online": true,
+      "deviceName": "SP-TBLC-XER-F8",
+      "systemDescription": "Xerox VersaLink C405; System 68.71.21, Controller 1.90.3, IOT 3.5.0, ADF 42.0.0, Fax 104.8.0, Panel 91.16.11, Boot 11.1.225, Contents 5.0.0, Plugin 3.0.1, RSEP 1.8.25",
+      "lastChecked": "2026-05-26T21:54:53.698Z",
+      "supplies": {
+        "blackToner": {
+          "name": "Cartucho de toner preto, PN 106R03532;SN0500C5001E0A0000",
+          "level": 4830,
+          "maxCapacity": 10500,
+          "percentage": 46,
+          "display": "46%",
+          "alertLevel": "yellow",
+          "available": true
+        },
+        "cyanToner": {
+          "name": "Cartucho de toner ciano, PN 106R03534;SNE400165D1F090000",
+          "level": 7200,
+          "maxCapacity": 8000,
+          "percentage": 90,
+          "display": "90%",
+          "alertLevel": "green",
+          "available": true
+        },
+        "magentaToner": {
+          "name": "Cartucho de toner magenta, PN 106R03535;SN610015003E160000",
+          "level": 6960,
+          "maxCapacity": 8000,
+          "percentage": 87,
+          "display": "87%",
+          "alertLevel": "green",
+          "available": true
+        },
+        "yellowToner": {
+          "name": "Cartucho de toner amarelo, PN 106R03533;SN3E0068003D160000",
+          "level": 1120,
+          "maxCapacity": 8000,
+          "percentage": 14,
+          "display": "14%",
+          "alertLevel": "red",
+          "available": true
+        },
+        "fuser": {
+          "name": "Fusor, PN 115R00088",
+          "level": -3,
+          "maxCapacity": -2,
+          "percentage": null,
+          "display": "Não informado pelo equipamento",
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "drum": {
+          "name": "Cilindro",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "transferUnit": {
+          "name": "Unidade de Transferência",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "wasteToner": {
+          "name": "Cartucho de resíduos, PN 108R01124",
+          "level": -3,
+          "maxCapacity": -2,
+          "percentage": null,
+          "display": "Não informado pelo equipamento",
+          "alertLevel": "unavailable",
+          "available": false
+        }
+      },
+      "otherSupplies": [
+        {
+          "name": "Kit de manutenção, PN 108R01122",
+          "level": -3,
+          "maxCapacity": -2,
+          "percentage": null,
+          "display": "Não informado pelo equipamento",
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        {
+          "name": "Kit de cartucho do fotorreceptor, PN 108R01121",
+          "level": 39000,
+          "maxCapacity": 60000,
+          "percentage": 65,
+          "display": "65%",
+          "alertLevel": "green",
+          "available": true
+        }
+      ],
+      "trays": [
+        {
+          "name": "Bandeja 1",
+          "status": "OK",
+          "quantity": "90%",
+          "paperType": "Bandeja 1",
+          "level": -3,
+          "maxCapacity": 550,
+          "percentage": 90,
+          "alertLevel": "green",
+          "available": true
+        },
+        {
+          "name": "Bandeja manual",
+          "status": "Vazio",
+          "quantity": "0%",
+          "paperType": "Bandeja manual",
+          "level": 0,
+          "maxCapacity": 150,
+          "percentage": 0,
+          "alertLevel": "red",
+          "available": true
+        }
+      ],
+      "rawSupplyCount": 8,
+      "lastUpdated": "2026-05-26T21:54:53.748Z"
+    }
+  },
+  {
+    "id": "332f3b0c-d158-424a-abda-38f8fc30ca67",
+    "name": "SP-TBLC-ST-F1",
+    "model": "C405",
+    "ip": "10.33.247.61",
+    "location": "Ambulatório",
+    "type": "color",
+    "snmpCommunity": null,
+    "createdAt": "2026-05-25T19:14:46.682Z",
+    "lastStatus": {
+      "online": true,
+      "deviceName": "SP-TBLC-ST-F1",
+      "systemDescription": "Xerox VersaLink C405; System 68.59.1, Controller 1.69.0, IOT 3.4.0, ADF 42.0.0, Fax 104.8.0, Panel 91.16.11, Boot 11.1.219, Contents 5.0.0, Plugin 3.0.1, RSEP 1.8.25",
+      "lastChecked": "2026-05-26T21:54:53.904Z"
+    },
+    "lastSupplies": {
+      "online": true,
+      "deviceName": "SP-TBLC-ST-F1",
+      "systemDescription": "Xerox VersaLink C405; System 68.59.1, Controller 1.69.0, IOT 3.4.0, ADF 42.0.0, Fax 104.8.0, Panel 91.16.11, Boot 11.1.219, Contents 5.0.0, Plugin 3.0.1, RSEP 1.8.25",
+      "lastChecked": "2026-05-26T21:54:53.904Z",
+      "supplies": {
+        "blackToner": {
+          "name": "Black Toner Cartridge, PN 106R03532;SN2D00900023100000",
+          "level": 2625,
+          "maxCapacity": 10500,
+          "percentage": 25,
+          "display": "25%",
+          "alertLevel": "yellow",
+          "available": true
+        },
+        "cyanToner": {
+          "name": "Yellow Toner Cartridge, PN 106R03533;SN6D00C600140E0000",
+          "level": 6240,
+          "maxCapacity": 8000,
+          "percentage": 78,
+          "display": "78%",
+          "alertLevel": "green",
+          "available": true
+        },
+        "magentaToner": {
+          "name": "Toner Magenta",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "yellowToner": {
+          "name": "Toner Amarelo",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "fuser": {
+          "name": "Fuser, PN 115R00088",
+          "level": -3,
+          "maxCapacity": -2,
+          "percentage": null,
+          "display": "Não informado pelo equipamento",
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "drum": {
+          "name": "Drum Cartridge Kit, PN 108R01121",
+          "level": 0,
+          "maxCapacity": 60000,
+          "percentage": 0,
+          "display": "0%",
+          "alertLevel": "red",
+          "available": true
+        },
+        "transferUnit": {
+          "name": "Unidade de Transferência",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "wasteToner": {
+          "name": "Waste Cartridge, PN 108R01124",
+          "level": -3,
+          "maxCapacity": -2,
+          "percentage": null,
+          "display": "Não informado pelo equipamento",
+          "alertLevel": "unavailable",
+          "available": false
+        }
+      },
+      "otherSupplies": [
+        {
+          "name": "Magenta Toner Cartridge, PN 106R03535;SN6100150098160000",
+          "level": 7760,
+          "maxCapacity": 8000,
+          "percentage": 97,
+          "display": "97%",
+          "alertLevel": "green",
+          "available": true
+        },
+        {
+          "name": "Cyan Toner Cartridge, PN 106R03534;SNE400166D1F090000",
+          "level": 4400,
+          "maxCapacity": 8000,
+          "percentage": 55,
+          "display": "55%",
+          "alertLevel": "green",
+          "available": true
+        },
+        {
+          "name": "Maintenance Kit, PN 108R01122",
+          "level": -3,
+          "maxCapacity": -2,
+          "percentage": null,
+          "display": "Não informado pelo equipamento",
+          "alertLevel": "unavailable",
+          "available": false
+        }
+      ],
+      "trays": [
+        {
+          "name": "Tray 1",
+          "status": "OK",
+          "quantity": "90%",
+          "paperType": "Tray 1",
+          "level": -3,
+          "maxCapacity": 550,
+          "percentage": 90,
+          "alertLevel": "green",
+          "available": true
+        },
+        {
+          "name": "Bypass Tray",
+          "status": "Vazio",
+          "quantity": "0%",
+          "paperType": "Bypass Tray",
+          "level": 0,
+          "maxCapacity": 150,
+          "percentage": 0,
+          "alertLevel": "red",
+          "available": true
+        }
+      ],
+      "rawSupplyCount": 8,
+      "lastUpdated": "2026-05-26T21:54:53.954Z"
+    }
+  },
+  {
+    "id": "aec20795-dd23-46f8-aa2b-1bf91798953a",
+    "name": "LOGISTICA-DE-MIDIA",
+    "model": "C400",
+    "ip": "10.33.247.72",
+    "location": "Logística de mídia",
+    "type": "color",
+    "snmpCommunity": null,
+    "createdAt": "2026-05-25T19:20:20.401Z",
+    "lastStatus": {
+      "online": true,
+      "deviceName": "SP-LOGISTICA-DE-MIDIA",
+      "systemDescription": "Xerox VersaLink C400; System 67.59.1, Controller 1.69.0, IOT 3.4.0, Panel 91.16.11, Boot 11.1.219, Contents 5.0.0, Plugin 3.0.1, RSEP 1.8.25",
+      "lastChecked": "2026-05-26T21:54:54.123Z"
+    },
+    "lastSupplies": {
+      "online": true,
+      "deviceName": "SP-LOGISTICA-DE-MIDIA",
+      "systemDescription": "Xerox VersaLink C400; System 67.59.1, Controller 1.69.0, IOT 3.4.0, Panel 91.16.11, Boot 11.1.219, Contents 5.0.0, Plugin 3.0.1, RSEP 1.8.25",
+      "lastChecked": "2026-05-26T21:54:54.123Z",
+      "supplies": {
+        "blackToner": {
+          "name": "Cartucho de toner preto, PN 106R03532;SN7500B5001B0B0000",
+          "level": 6300,
+          "maxCapacity": 10500,
+          "percentage": 60,
+          "display": "60%",
+          "alertLevel": "green",
+          "available": true
+        },
+        "cyanToner": {
+          "name": "Cartucho de toner ciano, PN 106R03534;SN5B0077002A120000",
+          "level": 3520,
+          "maxCapacity": 8000,
+          "percentage": 44,
+          "display": "44%",
+          "alertLevel": "yellow",
+          "available": true
+        },
+        "magentaToner": {
+          "name": "Cartucho de toner magenta, PN 106R03535;SNE300B50004100000",
+          "level": 6480,
+          "maxCapacity": 8000,
+          "percentage": 81,
+          "display": "81%",
+          "alertLevel": "green",
+          "available": true
+        },
+        "yellowToner": {
+          "name": "Cartucho de toner amarelo, PN 106R03533;SN5700B40034160000",
+          "level": 6160,
+          "maxCapacity": 8000,
+          "percentage": 77,
+          "display": "77%",
+          "alertLevel": "green",
+          "available": true
+        },
+        "fuser": {
+          "name": "Fusor, PN 115R00088",
+          "level": -3,
+          "maxCapacity": -2,
+          "percentage": null,
+          "display": "Não informado pelo equipamento",
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "drum": {
+          "name": "Cilindro",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "transferUnit": {
+          "name": "Unidade de Transferência",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "wasteToner": {
+          "name": "Cartucho de resíduos, PN 108R01124",
+          "level": -3,
+          "maxCapacity": -2,
+          "percentage": null,
+          "display": "Não informado pelo equipamento",
+          "alertLevel": "unavailable",
+          "available": false
+        }
+      },
+      "otherSupplies": [
+        {
+          "name": "Kit de manutenção, PN 108R01122",
+          "level": -3,
+          "maxCapacity": -2,
+          "percentage": null,
+          "display": "Não informado pelo equipamento",
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        {
+          "name": "Kit de cartucho do fotorreceptor, PN 108R01121",
+          "level": 40200,
+          "maxCapacity": 60000,
+          "percentage": 67,
+          "display": "67%",
+          "alertLevel": "green",
+          "available": true
+        }
+      ],
+      "trays": [
+        {
+          "name": "Bandeja 1",
+          "status": "OK",
+          "quantity": "90%",
+          "paperType": "Bandeja 1",
+          "level": -3,
+          "maxCapacity": 550,
+          "percentage": 90,
+          "alertLevel": "green",
+          "available": true
+        },
+        {
+          "name": "Bandeja manual",
+          "status": "Vazio",
+          "quantity": "0%",
+          "paperType": "Bandeja manual",
+          "level": 0,
+          "maxCapacity": 150,
+          "percentage": 0,
+          "alertLevel": "red",
+          "available": true
+        }
+      ],
+      "rawSupplyCount": 8,
+      "lastUpdated": "2026-05-26T21:54:54.177Z"
+    }
+  },
+  {
+    "id": "75840281-2850-4215-9588-958c3ae37894",
+    "name": "SP-TBLP-AMX-F2",
+    "model": "B405",
+    "ip": "10.33.247.73",
+    "location": "Almoxarifado",
+    "type": "monochrome",
+    "snmpCommunity": null,
+    "createdAt": "2026-05-25T19:21:07.985Z",
+    "lastStatus": {
+      "online": true,
+      "deviceName": "SP-TBLP-AMX-F2",
+      "systemDescription": "Xerox VersaLink B405; System 38.59.1, Controller 1.69.0, IOT 2.8.0, ADF 1.0.10, Fax 104.8.0, Panel 91.16.11, Boot 11.1.219, Contents 5.0.0, Plugin 3.0.1, RSEP 1.8.25",
+      "lastChecked": "2026-05-26T21:54:54.360Z"
+    },
+    "lastSupplies": {
+      "online": true,
+      "deviceName": "SP-TBLP-AMX-F2",
+      "systemDescription": "Xerox VersaLink B405; System 38.59.1, Controller 1.69.0, IOT 2.8.0, ADF 1.0.10, Fax 104.8.0, Panel 91.16.11, Boot 11.1.219, Contents 5.0.0, Plugin 3.0.1, RSEP 1.8.25",
+      "lastChecked": "2026-05-26T21:54:54.360Z",
+      "supplies": {
+        "blackToner": {
+          "name": "Toner Preto",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "cyanToner": {
+          "name": "Toner Ciano",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "magentaToner": {
+          "name": "Toner Magenta",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "yellowToner": {
+          "name": "Toner Amarelo",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "fuser": {
+          "name": "Fusor",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "drum": {
+          "name": "Cilindro",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "transferUnit": {
+          "name": "Unidade de Transferência",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "wasteToner": {
+          "name": "Resíduo de Toner",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        }
+      },
+      "otherSupplies": [
+        {
+          "name": "Cartucho de toner, PN 106R03585;SN85005D003A070000",
+          "level": 24108,
+          "maxCapacity": 24600,
+          "percentage": 98,
+          "display": "98%",
+          "alertLevel": "green",
+          "available": true
+        },
+        {
+          "name": "Cartucho do fotorreceptor, PN 101R00554;SN48008A00130E0000",
+          "level": 39950,
+          "maxCapacity": 85000,
+          "percentage": 47,
+          "display": "47%",
+          "alertLevel": "yellow",
+          "available": true
+        },
+        {
+          "name": "Kit de manutenção, PN 115R00119",
+          "level": -3,
+          "maxCapacity": -2,
+          "percentage": null,
+          "display": "Não informado pelo equipamento",
+          "alertLevel": "unavailable",
+          "available": false
+        }
+      ],
+      "trays": [
+        {
+          "name": "Bandeja 1",
+          "status": "OK",
+          "quantity": "70%",
+          "paperType": "Bandeja 1",
+          "level": -3,
+          "maxCapacity": 550,
+          "percentage": 70,
+          "alertLevel": "green",
+          "available": true
+        },
+        {
+          "name": "Bandeja manual",
+          "status": "Vazio",
+          "quantity": "0%",
+          "paperType": "Bandeja manual",
+          "level": 0,
+          "maxCapacity": 150,
+          "percentage": 0,
+          "alertLevel": "red",
+          "available": true
+        }
+      ],
+      "rawSupplyCount": 3,
+      "lastUpdated": "2026-05-26T21:54:54.379Z"
+    }
+  },
+  {
+    "id": "4adc5ac7-5814-4be8-a75f-7051fa647b19",
+    "name": "SP-TBLP-SIM-F1",
+    "model": "B415",
+    "ip": "10.33.247.87",
+    "location": "Mansev Escritório",
+    "type": "monochrome",
+    "snmpCommunity": null,
+    "createdAt": "2026-05-25T19:22:09.979Z",
+    "lastStatus": {
+      "online": true,
+      "deviceName": "Não informado",
+      "systemDescription": "Não informado",
+      "lastChecked": "2026-05-26T21:55:04.478Z"
+    },
+    "lastSupplies": {
+      "online": true,
+      "deviceName": "Não informado",
+      "systemDescription": "Não informado",
+      "lastChecked": "2026-05-26T21:55:04.478Z",
+      "supplies": {
+        "blackToner": {
+          "name": "Toner Preto",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "cyanToner": {
+          "name": "Toner Ciano",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "magentaToner": {
+          "name": "Toner Magenta",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "yellowToner": {
+          "name": "Toner Amarelo",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "fuser": {
+          "name": "Fusor",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "drum": {
+          "name": "Cilindro",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "transferUnit": {
+          "name": "Unidade de Transferência",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "wasteToner": {
+          "name": "Resíduo de Toner",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        }
+      },
+      "otherSupplies": [],
+      "trays": [],
+      "rawSupplyCount": 0,
+      "lastUpdated": "2026-05-26T21:55:04.479Z"
+    }
+  },
+  {
+    "id": "5b0775dd-0c00-4c69-af7f-a995b717f727",
+    "name": "SP-TBLP-SIM-F2",
+    "model": "B405",
+    "ip": "10.33.247.75",
+    "location": "Manserv Manutenção",
+    "type": "monochrome",
+    "snmpCommunity": null,
+    "createdAt": "2026-05-25T19:23:20.838Z",
+    "lastStatus": {
+      "online": true,
+      "deviceName": "SP-TBLP-SIM-F2",
+      "systemDescription": "Xerox VersaLink B405; System 38.59.1, Controller 1.69.0, IOT 2.8.0, ADF 1.0.10, Fax 104.8.0, Panel 91.16.11, Boot 11.1.219, Contents 5.0.0, Plugin 3.0.1, RSEP 1.8.25",
+      "lastChecked": "2026-05-26T21:55:04.647Z"
+    },
+    "lastSupplies": {
+      "online": true,
+      "deviceName": "SP-TBLP-SIM-F2",
+      "systemDescription": "Xerox VersaLink B405; System 38.59.1, Controller 1.69.0, IOT 2.8.0, ADF 1.0.10, Fax 104.8.0, Panel 91.16.11, Boot 11.1.219, Contents 5.0.0, Plugin 3.0.1, RSEP 1.8.25",
+      "lastChecked": "2026-05-26T21:55:04.647Z",
+      "supplies": {
+        "blackToner": {
+          "name": "Toner Preto",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "cyanToner": {
+          "name": "Toner Ciano",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "magentaToner": {
+          "name": "Toner Magenta",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "yellowToner": {
+          "name": "Toner Amarelo",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "fuser": {
+          "name": "Fusor",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "drum": {
+          "name": "Cilindro",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "transferUnit": {
+          "name": "Unidade de Transferência",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "wasteToner": {
+          "name": "Resíduo de Toner",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        }
+      },
+      "otherSupplies": [
+        {
+          "name": "Cartucho de toner, PN 106R03585;SNAA00BF0002010000",
+          "level": 16728,
+          "maxCapacity": 24600,
+          "percentage": 68,
+          "display": "68%",
+          "alertLevel": "green",
+          "available": true
+        },
+        {
+          "name": "Cartucho do fotorreceptor, PN 101R00554;SN06004F00260C0000",
+          "level": 62900,
+          "maxCapacity": 85000,
+          "percentage": 74,
+          "display": "74%",
+          "alertLevel": "green",
+          "available": true
+        },
+        {
+          "name": "Kit de manutenção, PN 115R00119",
+          "level": -3,
+          "maxCapacity": -2,
+          "percentage": null,
+          "display": "Não informado pelo equipamento",
+          "alertLevel": "unavailable",
+          "available": false
+        }
+      ],
+      "trays": [
+        {
+          "name": "Bandeja 1",
+          "status": "OK",
+          "quantity": "70%",
+          "paperType": "Bandeja 1",
+          "level": -3,
+          "maxCapacity": 550,
+          "percentage": 70,
+          "alertLevel": "green",
+          "available": true
+        },
+        {
+          "name": "Bandeja 2",
+          "status": "OK",
+          "quantity": "70%",
+          "paperType": "Bandeja 2",
+          "level": -3,
+          "maxCapacity": 550,
+          "percentage": 70,
+          "alertLevel": "green",
+          "available": true
+        },
+        {
+          "name": "Bandeja manual",
+          "status": "Vazio",
+          "quantity": "0%",
+          "paperType": "Bandeja manual",
+          "level": 0,
+          "maxCapacity": 150,
+          "percentage": 0,
+          "alertLevel": "red",
+          "available": true
+        }
+      ],
+      "rawSupplyCount": 3,
+      "lastUpdated": "2026-05-26T21:55:04.670Z"
+    }
+  },
+  {
+    "id": "40031d5f-002b-4c4e-8124-8762e4a996d2",
+    "name": "SP-TBLP-TRANSP-F1",
+    "model": "B620",
+    "ip": "10.33.247.35",
+    "location": "Transporte",
+    "type": "monochrome",
+    "snmpCommunity": null,
+    "createdAt": "2026-05-25T19:24:03.424Z",
+    "lastStatus": {
+      "online": true,
+      "deviceName": "SP-TBLP-TRANSP-F1",
+      "systemDescription": "Xerox VersaLink B620; SS 122.027.025.24501, NC 122.027.24501, UI 122.027.24501, ME 230.334, CC 122.027.24501, FI 000.000.000, OS 230.334, SU 005.016",
+      "lastChecked": "2026-05-26T21:55:04.763Z"
+    },
+    "lastSupplies": {
+      "online": true,
+      "deviceName": "SP-TBLP-TRANSP-F1",
+      "systemDescription": "Xerox VersaLink B620; SS 122.027.025.24501, NC 122.027.24501, UI 122.027.24501, ME 230.334, CC 122.027.24501, FI 000.000.000, OS 230.334, SU 005.016",
+      "lastChecked": "2026-05-26T21:55:04.763Z",
+      "supplies": {
+        "blackToner": {
+          "name": "Black Toner, PN ;SNCAD242290B2C",
+          "level": 4200,
+          "maxCapacity": 10000,
+          "percentage": 42,
+          "display": "42%",
+          "alertLevel": "yellow",
+          "available": true
+        },
+        "cyanToner": {
+          "name": "Toner Ciano",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "magentaToner": {
+          "name": "Toner Magenta",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "yellowToner": {
+          "name": "Toner Amarelo",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "fuser": {
+          "name": "Fusor",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "drum": {
+          "name": "Cilindro",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "transferUnit": {
+          "name": "Unidade de Transferência",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "wasteToner": {
+          "name": "Resíduo de Toner",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        }
+      },
+      "otherSupplies": [
+        {
+          "name": "Black Imaging Unit, PN  013R00699;SNCAD242401066",
+          "level": 100,
+          "maxCapacity": 100,
+          "percentage": 100,
+          "display": "100%",
+          "alertLevel": "green",
+          "available": true
+        }
+      ],
+      "trays": [
+        {
+          "name": "Tray 1",
+          "status": "OK",
+          "quantity": "100%",
+          "paperType": "Tray 1",
+          "level": 550,
+          "maxCapacity": 550,
+          "percentage": 100,
+          "alertLevel": "green",
+          "available": true
+        },
+        {
+          "name": "Bypass Tray",
+          "status": "Vazio",
+          "quantity": "0%",
+          "paperType": "Bypass Tray",
+          "level": 0,
+          "maxCapacity": 100,
+          "percentage": 0,
+          "alertLevel": "red",
+          "available": true
+        }
+      ],
+      "rawSupplyCount": 2,
+      "lastUpdated": "2026-05-26T21:55:04.792Z"
+    }
+  },
+  {
+    "id": "39cc23d8-f22e-4930-9643-0e1a64757ad4",
+    "name": "SP-TBLP-SEG-F1",
+    "model": "C400",
+    "ip": "10.33.247.77",
+    "location": "Segurança",
+    "type": "color",
+    "snmpCommunity": null,
+    "createdAt": "2026-05-25T19:25:13.594Z",
+    "lastStatus": {
+      "online": true,
+      "deviceName": "Não informado",
+      "systemDescription": "Não informado",
+      "lastChecked": "2026-05-26T21:55:14.889Z"
+    },
+    "lastSupplies": {
+      "online": true,
+      "deviceName": "Não informado",
+      "systemDescription": "Não informado",
+      "lastChecked": "2026-05-26T21:55:14.889Z",
+      "supplies": {
+        "blackToner": {
+          "name": "Toner Preto",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "cyanToner": {
+          "name": "Toner Ciano",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "magentaToner": {
+          "name": "Toner Magenta",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "yellowToner": {
+          "name": "Toner Amarelo",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "fuser": {
+          "name": "Fusor",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "drum": {
+          "name": "Cilindro",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "transferUnit": {
+          "name": "Unidade de Transferência",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "wasteToner": {
+          "name": "Resíduo de Toner",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        }
+      },
+      "otherSupplies": [],
+      "trays": [],
+      "rawSupplyCount": 0,
+      "lastUpdated": "2026-05-26T21:55:14.891Z"
+    }
+  },
+  {
+    "id": "91814994-967c-4bf4-beb7-8cbd3a6fd07c",
+    "name": "JRM-9LC-CGM-F1",
+    "model": "C7025",
+    "ip": "10.33.247.60",
+    "location": "9° Andar",
+    "type": "color",
+    "snmpCommunity": null,
+    "createdAt": "2026-05-25T19:26:56.491Z",
+    "lastStatus": {
+      "online": true,
+      "deviceName": "JRM-9LC-CGM-F1",
+      "systemDescription": "Xerox VersaLink C7025; System 57.42.1, Controller 1.50.8, IOT 64.17.0, ADF 31.16.0, Panel 155.116.11, Boot 11.1.207, Contents 5.0.0, Plugin 3.0.1, RSEP 1.8.23",
+      "lastChecked": "2026-05-26T21:55:15.069Z"
+    },
+    "lastSupplies": {
+      "online": true,
+      "deviceName": "JRM-9LC-CGM-F1",
+      "systemDescription": "Xerox VersaLink C7025; System 57.42.1, Controller 1.50.8, IOT 64.17.0, ADF 31.16.0, Panel 155.116.11, Boot 11.1.207, Contents 5.0.0, Plugin 3.0.1, RSEP 1.8.23",
+      "lastChecked": "2026-05-26T21:55:15.069Z",
+      "supplies": {
+        "blackToner": {
+          "name": "Cartucho de toner preto, PN 106R03745;SN805B5D0FC5070000",
+          "level": 1320,
+          "maxCapacity": 22000,
+          "percentage": 6,
+          "display": "6%",
+          "alertLevel": "red",
+          "available": true
+        },
+        "cyanToner": {
+          "name": "Cartucho de toner ciano, PN 106R03748;SN802E510CDB070000",
+          "level": 7200,
+          "maxCapacity": 15000,
+          "percentage": 48,
+          "display": "48%",
+          "alertLevel": "yellow",
+          "available": true
+        },
+        "magentaToner": {
+          "name": "Cartucho de toner magenta, PN 106R03747;SN80144903DD070000",
+          "level": 10500,
+          "maxCapacity": 15000,
+          "percentage": 70,
+          "display": "70%",
+          "alertLevel": "green",
+          "available": true
+        },
+        "yellowToner": {
+          "name": "Cartucho de toner amarelo, PN 106R03746;SN8013421557080000",
+          "level": 15000,
+          "maxCapacity": 15000,
+          "percentage": 100,
+          "display": "100%",
+          "alertLevel": "green",
+          "available": true
+        },
+        "fuser": {
+          "name": "Fusor, PN 115R00114",
+          "level": -3,
+          "maxCapacity": -2,
+          "percentage": null,
+          "display": "Não informado pelo equipamento",
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "drum": {
+          "name": "Cilindro",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "transferUnit": {
+          "name": "Rolo de transferência, PN 115R00126",
+          "level": -3,
+          "maxCapacity": -2,
+          "percentage": null,
+          "display": "Não informado pelo equipamento",
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "wasteToner": {
+          "name": "Cartucho de resíduos, PN 115R00128",
+          "level": -3,
+          "maxCapacity": 30000,
+          "percentage": null,
+          "display": "Não informado pelo equipamento",
+          "alertLevel": "unavailable",
+          "available": false
+        }
+      },
+      "otherSupplies": [
+        {
+          "name": "Cartucho do fotorreceptor preto, PN 113R00780;SN8087481657070000",
+          "level": 66612,
+          "maxCapacity": 109200,
+          "percentage": 61,
+          "display": "61%",
+          "alertLevel": "green",
+          "available": true
+        },
+        {
+          "name": "Cartucho do fotorreceptor amarelo, PN 113R00780;SN80674E1657070000",
+          "level": 58290,
+          "maxCapacity": 87000,
+          "percentage": 67,
+          "display": "67%",
+          "alertLevel": "green",
+          "available": true
+        },
+        {
+          "name": "Cartucho do fotorreceptor magenta, PN 113R00780;SN80EC431657070000",
+          "level": 59160,
+          "maxCapacity": 87000,
+          "percentage": 68,
+          "display": "68%",
+          "alertLevel": "green",
+          "available": true
+        },
+        {
+          "name": "Cartucho do fotorreceptor ciano, PN 113R00780;SN80C0481657070000",
+          "level": 58290,
+          "maxCapacity": 87000,
+          "percentage": 67,
+          "display": "67%",
+          "alertLevel": "green",
+          "available": true
+        },
+        {
+          "name": "Correia de transferência, PN 115R00127",
+          "level": -3,
+          "maxCapacity": -2,
+          "percentage": null,
+          "display": "Não informado pelo equipamento",
+          "alertLevel": "unavailable",
+          "available": false
+        }
+      ],
+      "trays": [
+        {
+          "name": "Bandeja 1",
+          "status": "OK",
+          "quantity": "75%",
+          "paperType": "Bandeja 1",
+          "level": 390,
+          "maxCapacity": 520,
+          "percentage": 75,
+          "alertLevel": "green",
+          "available": true
+        },
+        {
+          "name": "Bandeja 2",
+          "status": "Baixo",
+          "quantity": "50%",
+          "paperType": "Bandeja 2",
+          "level": 260,
+          "maxCapacity": 520,
+          "percentage": 50,
+          "alertLevel": "yellow",
+          "available": true
+        },
+        {
+          "name": "Bandeja 3",
+          "status": "Baixo",
+          "quantity": "25%",
+          "paperType": "Bandeja 3",
+          "level": 130,
+          "maxCapacity": 520,
+          "percentage": 25,
+          "alertLevel": "yellow",
+          "available": true
+        },
+        {
+          "name": "Bandeja 4",
+          "status": "Baixo",
+          "quantity": "25%",
+          "paperType": "Bandeja 4",
+          "level": 130,
+          "maxCapacity": 520,
+          "percentage": 25,
+          "alertLevel": "yellow",
+          "available": true
+        },
+        {
+          "name": "Bandeja manual",
+          "status": "Vazio",
+          "quantity": "0%",
+          "paperType": "Bandeja manual",
+          "level": 0,
+          "maxCapacity": 90,
+          "percentage": 0,
+          "alertLevel": "red",
+          "available": true
+        }
+      ],
+      "rawSupplyCount": 12,
+      "lastUpdated": "2026-05-26T21:55:15.105Z"
+    }
+  },
+  {
+    "id": "202adba4-5779-4849-9ed0-23d53c14d99c",
+    "name": "JRM-8LC-DESEN-F1",
+    "model": "C7025",
+    "ip": "10.33.247.59",
+    "location": "8° Andar",
+    "type": "color",
+    "snmpCommunity": null,
+    "createdAt": "2026-05-25T19:28:11.413Z",
+    "lastStatus": {
+      "online": true,
+      "deviceName": "JRM-8LC-DESEN-F1",
+      "systemDescription": "Xerox VersaLink C7025; System 57.59.1, Controller 1.69.0, IOT 65.4.0, ADF 31.18.0, Panel 155.116.11, Boot 11.1.219, Contents 5.0.0, Plugin 3.0.1, RSEP 1.8.25",
+      "lastChecked": "2026-05-26T21:55:15.287Z"
+    },
+    "lastSupplies": {
+      "online": true,
+      "deviceName": "JRM-8LC-DESEN-F1",
+      "systemDescription": "Xerox VersaLink C7025; System 57.59.1, Controller 1.69.0, IOT 65.4.0, ADF 31.18.0, Panel 155.116.11, Boot 11.1.219, Contents 5.0.0, Plugin 3.0.1, RSEP 1.8.25",
+      "lastChecked": "2026-05-26T21:55:15.287Z",
+      "supplies": {
+        "blackToner": {
+          "name": "Cartucho de toner preto;SN80815E11F4070000",
+          "level": 6820,
+          "maxCapacity": 22000,
+          "percentage": 31,
+          "display": "31%",
+          "alertLevel": "yellow",
+          "available": true
+        },
+        "cyanToner": {
+          "name": "Cartucho de toner ciano;SN80376914D2070000",
+          "level": 5550,
+          "maxCapacity": 15000,
+          "percentage": 37,
+          "display": "37%",
+          "alertLevel": "yellow",
+          "available": true
+        },
+        "magentaToner": {
+          "name": "Cartucho de toner magenta;SN80BB211741080000",
+          "level": 14100,
+          "maxCapacity": 15000,
+          "percentage": 94,
+          "display": "94%",
+          "alertLevel": "green",
+          "available": true
+        },
+        "yellowToner": {
+          "name": "Cartucho de toner amarelo;SN80A54D04BD070000",
+          "level": 7050,
+          "maxCapacity": 15000,
+          "percentage": 47,
+          "display": "47%",
+          "alertLevel": "yellow",
+          "available": true
+        },
+        "fuser": {
+          "name": "Fusor, PN 115R00114",
+          "level": -3,
+          "maxCapacity": -2,
+          "percentage": null,
+          "display": "Não informado pelo equipamento",
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "drum": {
+          "name": "Cilindro",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "transferUnit": {
+          "name": "Rolo de transferência, PN 115R00126",
+          "level": -3,
+          "maxCapacity": -2,
+          "percentage": null,
+          "display": "Não informado pelo equipamento",
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "wasteToner": {
+          "name": "Cartucho de resíduos, PN 115R00128",
+          "level": -3,
+          "maxCapacity": 30000,
+          "percentage": null,
+          "display": "Não informado pelo equipamento",
+          "alertLevel": "unavailable",
+          "available": false
+        }
+      },
+      "otherSupplies": [
+        {
+          "name": "Cartucho do fotorreceptor preto, PN 113R00780;SN80B76C0145070000",
+          "level": 0,
+          "maxCapacity": 109200,
+          "percentage": 0,
+          "display": "0%",
+          "alertLevel": "red",
+          "available": true
+        },
+        {
+          "name": "Cartucho do fotorreceptor amarelo, PN 113R00780;SN809C520460070000",
+          "level": 57420,
+          "maxCapacity": 87000,
+          "percentage": 66,
+          "display": "66%",
+          "alertLevel": "green",
+          "available": true
+        },
+        {
+          "name": "Cartucho do fotorreceptor magenta, PN 113R00780;SN80C2571057070000",
+          "level": 51330,
+          "maxCapacity": 87000,
+          "percentage": 59,
+          "display": "59%",
+          "alertLevel": "green",
+          "available": true
+        },
+        {
+          "name": "Cartucho do fotorreceptor ciano, PN 113R00780;SN801F531057070000",
+          "level": 45240,
+          "maxCapacity": 87000,
+          "percentage": 52,
+          "display": "52%",
+          "alertLevel": "green",
+          "available": true
+        },
+        {
+          "name": "Correia de transferência, PN 115R00127",
+          "level": -3,
+          "maxCapacity": -2,
+          "percentage": null,
+          "display": "Não informado pelo equipamento",
+          "alertLevel": "unavailable",
+          "available": false
+        }
+      ],
+      "trays": [
+        {
+          "name": "Bandeja 1",
+          "status": "OK",
+          "quantity": "75%",
+          "paperType": "Bandeja 1",
+          "level": 390,
+          "maxCapacity": 520,
+          "percentage": 75,
+          "alertLevel": "green",
+          "available": true
+        },
+        {
+          "name": "Bandeja 2",
+          "status": "Baixo",
+          "quantity": "50%",
+          "paperType": "Bandeja 2",
+          "level": 260,
+          "maxCapacity": 520,
+          "percentage": 50,
+          "alertLevel": "yellow",
+          "available": true
+        },
+        {
+          "name": "Bandeja manual",
+          "status": "Vazio",
+          "quantity": "0%",
+          "paperType": "Bandeja manual",
+          "level": 0,
+          "maxCapacity": 90,
+          "percentage": 0,
+          "alertLevel": "red",
+          "available": true
+        }
+      ],
+      "rawSupplyCount": 12,
+      "lastUpdated": "2026-05-26T21:55:15.326Z"
+    }
+  },
+  {
+    "id": "8bd73805-b03d-4922-9804-9558acb924c1",
+    "name": "JRM-7LC-OPEC-F4",
+    "model": "C7030",
+    "ip": "10.33.247.56",
+    "location": "7° Andar",
+    "type": "color",
+    "snmpCommunity": null,
+    "createdAt": "2026-05-25T19:28:48.273Z",
+    "lastStatus": {
+      "online": true,
+      "deviceName": "JRM-7LC-OPEC-F4",
+      "systemDescription": "Xerox VersaLink C7030; System 57.64.51, Controller 1.72.1, IOT 65.4.0, ADF 31.18.0, Panel 155.116.11, Boot 11.1.219, Contents 5.0.0, Plugin 3.0.1, RSEP 1.8.25",
+      "lastChecked": "2026-05-26T21:55:15.519Z"
+    },
+    "lastSupplies": {
+      "online": true,
+      "deviceName": "JRM-7LC-OPEC-F4",
+      "systemDescription": "Xerox VersaLink C7030; System 57.64.51, Controller 1.72.1, IOT 65.4.0, ADF 31.18.0, Panel 155.116.11, Boot 11.1.219, Contents 5.0.0, Plugin 3.0.1, RSEP 1.8.25",
+      "lastChecked": "2026-05-26T21:55:15.519Z",
+      "supplies": {
+        "blackToner": {
+          "name": "Black Toner Cartridge, PN 106R03745;SN80C1690452070000",
+          "level": 220,
+          "maxCapacity": 22000,
+          "percentage": 1,
+          "display": "1%",
+          "alertLevel": "red",
+          "available": true
+        },
+        "cyanToner": {
+          "name": "Yellow Toner Cartridge, PN 106R03746;SN80E74F01C8070000",
+          "level": 7500,
+          "maxCapacity": 15000,
+          "percentage": 50,
+          "display": "50%",
+          "alertLevel": "yellow",
+          "available": true
+        },
+        "magentaToner": {
+          "name": "Magenta Drum Cartridge, PN 113R00780;SN80975F0145070000",
+          "level": 53460,
+          "maxCapacity": 97200,
+          "percentage": 55,
+          "display": "55%",
+          "alertLevel": "green",
+          "available": true
+        },
+        "yellowToner": {
+          "name": "Yellow Drum Cartridge, PN 113R00780;SN80585F0145070000",
+          "level": 53460,
+          "maxCapacity": 97200,
+          "percentage": 55,
+          "display": "55%",
+          "alertLevel": "green",
+          "available": true
+        },
+        "fuser": {
+          "name": "Fuser, PN 115R00114",
+          "level": -3,
+          "maxCapacity": -2,
+          "percentage": null,
+          "display": "Não informado pelo equipamento",
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "drum": {
+          "name": "Cilindro",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "transferUnit": {
+          "name": "Transfer Roller, PN 115R00126",
+          "level": -3,
+          "maxCapacity": -2,
+          "percentage": null,
+          "display": "Não informado pelo equipamento",
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "wasteToner": {
+          "name": "Waste Cartridge, PN 115R00128",
+          "level": -3,
+          "maxCapacity": 30000,
+          "percentage": null,
+          "display": "Não informado pelo equipamento",
+          "alertLevel": "unavailable",
+          "available": false
+        }
+      },
+      "otherSupplies": [
+        {
+          "name": "Magenta Toner Cartridge, PN 106R03747;SN809B56165F070000",
+          "level": 1800,
+          "maxCapacity": 15000,
+          "percentage": 12,
+          "display": "12%",
+          "alertLevel": "red",
+          "available": true
+        },
+        {
+          "name": "Cyan Toner Cartridge, PN 106R03748;SN800A6A1155070000",
+          "level": 150,
+          "maxCapacity": 15000,
+          "percentage": 1,
+          "display": "1%",
+          "alertLevel": "red",
+          "available": true
+        },
+        {
+          "name": "Black Drum Cartridge, PN 113R00780;SN80E7420C46070000",
+          "level": 0,
+          "maxCapacity": 116500,
+          "percentage": 0,
+          "display": "0%",
+          "alertLevel": "red",
+          "available": true
+        },
+        {
+          "name": "Cyan Drum Cartridge, PN 113R00780;SN80385C0145070000",
+          "level": 53460,
+          "maxCapacity": 97200,
+          "percentage": 55,
+          "display": "55%",
+          "alertLevel": "green",
+          "available": true
+        },
+        {
+          "name": "Transfer Belt, PN 115R00127",
+          "level": -3,
+          "maxCapacity": -2,
+          "percentage": null,
+          "display": "Não informado pelo equipamento",
+          "alertLevel": "unavailable",
+          "available": false
+        }
+      ],
+      "trays": [
+        {
+          "name": "Tray 1",
+          "status": "OK",
+          "quantity": "75%",
+          "paperType": "Tray 1",
+          "level": 390,
+          "maxCapacity": 520,
+          "percentage": 75,
+          "alertLevel": "green",
+          "available": true
+        },
+        {
+          "name": "Tray 2",
+          "status": "OK",
+          "quantity": "75%",
+          "paperType": "Tray 2",
+          "level": 390,
+          "maxCapacity": 520,
+          "percentage": 75,
+          "alertLevel": "green",
+          "available": true
+        },
+        {
+          "name": "Bypass Tray",
+          "status": "Vazio",
+          "quantity": "0%",
+          "paperType": "Bypass Tray",
+          "level": 0,
+          "maxCapacity": 90,
+          "percentage": 0,
+          "alertLevel": "red",
+          "available": true
+        }
+      ],
+      "rawSupplyCount": 12,
+      "lastUpdated": "2026-05-26T21:55:15.551Z"
+    }
+  },
+  {
+    "id": "85bc1f76-24a5-4227-8d27-4395c8f47321",
+    "name": "JRM-6LC-CANAISGLOBO-F2",
+    "model": "C7030",
+    "ip": "10.33.247.53",
+    "location": "Canais Globo 6° Andar",
+    "type": "color",
+    "snmpCommunity": null,
+    "createdAt": "2026-05-25T19:29:44.524Z",
+    "lastStatus": {
+      "online": true,
+      "deviceName": "JRM-6LC-CANAISGLOBO-F2",
+      "systemDescription": "Xerox VersaLink C7030; System 57.75.83, Controller 1.94.115, IOT 65.6.0, ADF 31.20.0, Panel 155.116.11, Boot 11.1.235, Contents 5.0.0, Plugin 4.0.5, RSEP 1.8.25",
+      "lastChecked": "2026-05-26T21:55:15.717Z"
+    },
+    "lastSupplies": {
+      "online": true,
+      "deviceName": "JRM-6LC-CANAISGLOBO-F2",
+      "systemDescription": "Xerox VersaLink C7030; System 57.75.83, Controller 1.94.115, IOT 65.6.0, ADF 31.20.0, Panel 155.116.11, Boot 11.1.235, Contents 5.0.0, Plugin 4.0.5, RSEP 1.8.25",
+      "lastChecked": "2026-05-26T21:55:15.717Z",
+      "supplies": {
+        "blackToner": {
+          "name": "Black Toner Cartridge, PN 106R03745;SN80145506A2070000",
+          "level": 220,
+          "maxCapacity": 22000,
+          "percentage": 1,
+          "display": "1%",
+          "alertLevel": "red",
+          "available": true
+        },
+        "cyanToner": {
+          "name": "Yellow Toner Cartridge, PN 106R03746;SN80F06F04C5070000",
+          "level": 6450,
+          "maxCapacity": 15000,
+          "percentage": 43,
+          "display": "43%",
+          "alertLevel": "yellow",
+          "available": true
+        },
+        "magentaToner": {
+          "name": "Magenta Drum Cartridge, PN 113R00780;SN80F951073E070000",
+          "level": 41796,
+          "maxCapacity": 97200,
+          "percentage": 43,
+          "display": "43%",
+          "alertLevel": "yellow",
+          "available": true
+        },
+        "yellowToner": {
+          "name": "Yellow Drum Cartridge, PN 113R00780;SN80DC64073E070000",
+          "level": 41796,
+          "maxCapacity": 97200,
+          "percentage": 43,
+          "display": "43%",
+          "alertLevel": "yellow",
+          "available": true
+        },
+        "fuser": {
+          "name": "Fuser, PN 115R00114",
+          "level": -3,
+          "maxCapacity": -2,
+          "percentage": null,
+          "display": "Não informado pelo equipamento",
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "drum": {
+          "name": "Cilindro",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "transferUnit": {
+          "name": "Transfer Roller, PN 115R00126",
+          "level": -3,
+          "maxCapacity": -2,
+          "percentage": null,
+          "display": "Não informado pelo equipamento",
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "wasteToner": {
+          "name": "Waste Cartridge, PN 115R00128",
+          "level": -3,
+          "maxCapacity": 30000,
+          "percentage": null,
+          "display": "Não informado pelo equipamento",
+          "alertLevel": "unavailable",
+          "available": false
+        }
+      },
+      "otherSupplies": [
+        {
+          "name": "Magenta Toner Cartridge, PN 106R03747;SN80D16E18D3070000",
+          "level": 7050,
+          "maxCapacity": 15000,
+          "percentage": 47,
+          "display": "47%",
+          "alertLevel": "yellow",
+          "available": true
+        },
+        {
+          "name": "Cyan Toner Cartridge, PN 106R03748;SN80B94010CF070000",
+          "level": 5400,
+          "maxCapacity": 15000,
+          "percentage": 36,
+          "display": "36%",
+          "alertLevel": "yellow",
+          "available": true
+        },
+        {
+          "name": "Black Drum Cartridge, PN 113R00780;SN801E52073E070000",
+          "level": 17475,
+          "maxCapacity": 116500,
+          "percentage": 15,
+          "display": "15%",
+          "alertLevel": "red",
+          "available": true
+        },
+        {
+          "name": "Cyan Drum Cartridge, PN 113R00780;SN804152073E070000",
+          "level": 41796,
+          "maxCapacity": 97200,
+          "percentage": 43,
+          "display": "43%",
+          "alertLevel": "yellow",
+          "available": true
+        },
+        {
+          "name": "Transfer Belt, PN 115R00127",
+          "level": -3,
+          "maxCapacity": -2,
+          "percentage": null,
+          "display": "Não informado pelo equipamento",
+          "alertLevel": "unavailable",
+          "available": false
+        }
+      ],
+      "trays": [
+        {
+          "name": "Tray 1",
+          "status": "OK",
+          "quantity": "75%",
+          "paperType": "Tray 1",
+          "level": 390,
+          "maxCapacity": 520,
+          "percentage": 75,
+          "alertLevel": "green",
+          "available": true
+        },
+        {
+          "name": "Tray 2",
+          "status": "Baixo",
+          "quantity": "50%",
+          "paperType": "Tray 2",
+          "level": 260,
+          "maxCapacity": 520,
+          "percentage": 50,
+          "alertLevel": "yellow",
+          "available": true
+        },
+        {
+          "name": "Tray 3",
+          "status": "Baixo",
+          "quantity": "25%",
+          "paperType": "Tray 3",
+          "level": 130,
+          "maxCapacity": 520,
+          "percentage": 25,
+          "alertLevel": "yellow",
+          "available": true
+        },
+        {
+          "name": "Tray 4",
+          "status": "Baixo",
+          "quantity": "50%",
+          "paperType": "Tray 4",
+          "level": 260,
+          "maxCapacity": 520,
+          "percentage": 50,
+          "alertLevel": "yellow",
+          "available": true
+        },
+        {
+          "name": "Bypass Tray",
+          "status": "Vazio",
+          "quantity": "0%",
+          "paperType": "Bypass Tray",
+          "level": 0,
+          "maxCapacity": 90,
+          "percentage": 0,
+          "alertLevel": "red",
+          "available": true
+        }
+      ],
+      "rawSupplyCount": 12,
+      "lastUpdated": "2026-05-26T21:55:15.750Z"
+    }
+  },
+  {
+    "id": "022baf01-21d5-4c6b-976e-ad4b63a68028",
+    "name": "JRM-5LC-INFO-F1",
+    "model": "C7025",
+    "ip": "10.33.247.49",
+    "location": "5° Andar",
+    "type": "color",
+    "snmpCommunity": null,
+    "createdAt": "2026-05-25T19:30:36.244Z",
+    "lastStatus": {
+      "online": true,
+      "deviceName": "Não informado",
+      "systemDescription": "Não informado",
+      "lastChecked": "2026-05-26T21:55:25.841Z"
+    },
+    "lastSupplies": {
+      "online": true,
+      "deviceName": "Não informado",
+      "systemDescription": "Não informado",
+      "lastChecked": "2026-05-26T21:55:25.841Z",
+      "supplies": {
+        "blackToner": {
+          "name": "Toner Preto",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "cyanToner": {
+          "name": "Toner Ciano",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "magentaToner": {
+          "name": "Toner Magenta",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "yellowToner": {
+          "name": "Toner Amarelo",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "fuser": {
+          "name": "Fusor",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "drum": {
+          "name": "Cilindro",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "transferUnit": {
+          "name": "Unidade de Transferência",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "wasteToner": {
+          "name": "Resíduo de Toner",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        }
+      },
+      "otherSupplies": [],
+      "trays": [],
+      "rawSupplyCount": 0,
+      "lastUpdated": "2026-05-26T21:55:25.843Z"
+    }
+  },
+  {
+    "id": "1567e382-a1b1-4c80-8364-0046d2a888de",
+    "name": "JRM-4LC-XER-F3",
+    "model": "C7030",
+    "ip": "10.33.247.45",
+    "location": "4° Andar",
+    "type": "monochrome",
+    "snmpCommunity": null,
+    "createdAt": "2026-05-25T19:31:25.766Z",
+    "lastStatus": {
+      "online": true,
+      "deviceName": "JRM-4LC-XER-F3",
+      "systemDescription": "Xerox VersaLink C7030; System 57.75.83, Controller 1.94.115, IOT 65.6.0, ADF 31.20.0, Panel 155.116.11, Boot 11.1.235, Contents 5.0.0, Plugin 4.0.5, RSEP 1.8.25",
+      "lastChecked": "2026-05-26T21:55:25.982Z"
+    },
+    "lastSupplies": {
+      "online": true,
+      "deviceName": "JRM-4LC-XER-F3",
+      "systemDescription": "Xerox VersaLink C7030; System 57.75.83, Controller 1.94.115, IOT 65.6.0, ADF 31.20.0, Panel 155.116.11, Boot 11.1.235, Contents 5.0.0, Plugin 4.0.5, RSEP 1.8.25",
+      "lastChecked": "2026-05-26T21:55:25.982Z",
+      "supplies": {
+        "blackToner": {
+          "name": "Black Toner Cartridge;SN80825611F4070000",
+          "level": 7480,
+          "maxCapacity": 22000,
+          "percentage": 34,
+          "display": "34%",
+          "alertLevel": "yellow",
+          "available": true
+        },
+        "cyanToner": {
+          "name": "Yellow Toner Cartridge;SN80D95A08D3070000",
+          "level": 7950,
+          "maxCapacity": 15000,
+          "percentage": 53,
+          "display": "53%",
+          "alertLevel": "green",
+          "available": true
+        },
+        "magentaToner": {
+          "name": "Magenta Drum Cartridge, PN 113R00780;SN80B35A0B46070000",
+          "level": 49572,
+          "maxCapacity": 97200,
+          "percentage": 51,
+          "display": "51%",
+          "alertLevel": "green",
+          "available": true
+        },
+        "yellowToner": {
+          "name": "Yellow Drum Cartridge, PN 113R00780;SN80E15C0B46070000",
+          "level": 49572,
+          "maxCapacity": 97200,
+          "percentage": 51,
+          "display": "51%",
+          "alertLevel": "green",
+          "available": true
+        },
+        "fuser": {
+          "name": "Fuser, PN 115R00114",
+          "level": -3,
+          "maxCapacity": -2,
+          "percentage": null,
+          "display": "Não informado pelo equipamento",
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "drum": {
+          "name": "Cilindro",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "transferUnit": {
+          "name": "Transfer Roller, PN 115R00126",
+          "level": -3,
+          "maxCapacity": -2,
+          "percentage": null,
+          "display": "Não informado pelo equipamento",
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "wasteToner": {
+          "name": "Waste Cartridge, PN 115R00128",
+          "level": -3,
+          "maxCapacity": 30000,
+          "percentage": null,
+          "display": "Não informado pelo equipamento",
+          "alertLevel": "unavailable",
+          "available": false
+        }
+      },
+      "otherSupplies": [
+        {
+          "name": "Magenta Toner Cartridge;SN80863A0443080000",
+          "level": 11250,
+          "maxCapacity": 15000,
+          "percentage": 75,
+          "display": "75%",
+          "alertLevel": "green",
+          "available": true
+        },
+        {
+          "name": "Cyan Toner Cartridge;SN807730104E080000",
+          "level": 14550,
+          "maxCapacity": 15000,
+          "percentage": 97,
+          "display": "97%",
+          "alertLevel": "green",
+          "available": true
+        },
+        {
+          "name": "Black Drum Cartridge, PN 113R00780;SN80B25A0B46070000",
+          "level": 44270,
+          "maxCapacity": 116500,
+          "percentage": 38,
+          "display": "38%",
+          "alertLevel": "yellow",
+          "available": true
+        },
+        {
+          "name": "Cyan Drum Cartridge, PN 113R00780;SN801C530B46070000",
+          "level": 49572,
+          "maxCapacity": 97200,
+          "percentage": 51,
+          "display": "51%",
+          "alertLevel": "green",
+          "available": true
+        },
+        {
+          "name": "Transfer Belt, PN 115R00127",
+          "level": -3,
+          "maxCapacity": -2,
+          "percentage": null,
+          "display": "Não informado pelo equipamento",
+          "alertLevel": "unavailable",
+          "available": false
+        }
+      ],
+      "trays": [
+        {
+          "name": "Tray 1",
+          "status": "OK",
+          "quantity": "75%",
+          "paperType": "Tray 1",
+          "level": 390,
+          "maxCapacity": 520,
+          "percentage": 75,
+          "alertLevel": "green",
+          "available": true
+        },
+        {
+          "name": "Tray 2",
+          "status": "Baixo",
+          "quantity": "25%",
+          "paperType": "Tray 2",
+          "level": 130,
+          "maxCapacity": 520,
+          "percentage": 25,
+          "alertLevel": "yellow",
+          "available": true
+        },
+        {
+          "name": "Bypass Tray",
+          "status": "Vazio",
+          "quantity": "0%",
+          "paperType": "Bypass Tray",
+          "level": 0,
+          "maxCapacity": 90,
+          "percentage": 0,
+          "alertLevel": "red",
+          "available": true
+        }
+      ],
+      "rawSupplyCount": 12,
+      "lastUpdated": "2026-05-26T21:55:26.026Z"
+    }
+  },
+  {
+    "id": "9d3f3203-314a-47d5-8a8e-b76bf28c34b5",
+    "name": "JRM-4LC-XER-F4",
+    "model": "C400",
+    "ip": "10.33.247.46",
+    "location": "Diretor 4° Andar",
+    "type": "monochrome",
+    "snmpCommunity": null,
+    "createdAt": "2026-05-25T19:32:46.349Z",
+    "lastStatus": {
+      "online": true,
+      "deviceName": "Não informado",
+      "systemDescription": "Não informado",
+      "lastChecked": "2026-05-26T21:55:36.127Z"
+    },
+    "lastSupplies": {
+      "online": true,
+      "deviceName": "Não informado",
+      "systemDescription": "Não informado",
+      "lastChecked": "2026-05-26T21:55:36.127Z",
+      "supplies": {
+        "blackToner": {
+          "name": "Toner Preto",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "cyanToner": {
+          "name": "Toner Ciano",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "magentaToner": {
+          "name": "Toner Magenta",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "yellowToner": {
+          "name": "Toner Amarelo",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "fuser": {
+          "name": "Fusor",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "drum": {
+          "name": "Cilindro",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "transferUnit": {
+          "name": "Unidade de Transferência",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "wasteToner": {
+          "name": "Resíduo de Toner",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        }
+      },
+      "otherSupplies": [],
+      "trays": [],
+      "rawSupplyCount": 0,
+      "lastUpdated": "2026-05-26T21:55:36.128Z"
+    }
+  },
+  {
+    "id": "786da7b9-1508-47cd-bfc2-0d6232cc39f3",
+    "name": "JRM-6LP-DIRE-F1",
+    "model": "C400",
+    "ip": "10.33.247.48",
+    "location": "Diretor 6° Andar",
+    "type": "color",
+    "snmpCommunity": null,
+    "createdAt": "2026-05-25T19:33:41.708Z",
+    "lastStatus": {
+      "online": true,
+      "deviceName": "Não informado",
+      "systemDescription": "Não informado",
+      "lastChecked": "2026-05-26T21:55:46.233Z"
+    },
+    "lastSupplies": {
+      "online": true,
+      "deviceName": "Não informado",
+      "systemDescription": "Não informado",
+      "lastChecked": "2026-05-26T21:55:46.233Z",
+      "supplies": {
+        "blackToner": {
+          "name": "Toner Preto",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "cyanToner": {
+          "name": "Toner Ciano",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "magentaToner": {
+          "name": "Toner Magenta",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "yellowToner": {
+          "name": "Toner Amarelo",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "fuser": {
+          "name": "Fusor",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "drum": {
+          "name": "Cilindro",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "transferUnit": {
+          "name": "Unidade de Transferência",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "wasteToner": {
+          "name": "Resíduo de Toner",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        }
+      },
+      "otherSupplies": [],
+      "trays": [],
+      "rawSupplyCount": 0,
+      "lastUpdated": "2026-05-26T21:55:46.233Z"
+    }
+  },
+  {
+    "id": "e09b266f-dde5-4d5e-94a8-565d28fe0c8a",
+    "name": "JRM-3LC-DESEN-F1",
+    "model": "C7025",
+    "ip": "10.33.247.44",
+    "location": "3° Andar",
+    "type": "color",
+    "snmpCommunity": null,
+    "createdAt": "2026-05-25T19:34:48.262Z",
+    "lastStatus": {
+      "online": true,
+      "deviceName": "JRM-3LC-DESEN-F1",
+      "systemDescription": "Xerox VersaLink C7025; System 57.59.1, Controller 1.69.0, IOT 65.4.0, ADF 31.18.0, Panel 155.116.11, Boot 11.1.219, Contents 5.0.0, Plugin 3.0.1, RSEP 1.8.25",
+      "lastChecked": "2026-05-26T21:55:46.395Z"
+    },
+    "lastSupplies": {
+      "online": true,
+      "deviceName": "JRM-3LC-DESEN-F1",
+      "systemDescription": "Xerox VersaLink C7025; System 57.59.1, Controller 1.69.0, IOT 65.4.0, ADF 31.18.0, Panel 155.116.11, Boot 11.1.219, Contents 5.0.0, Plugin 3.0.1, RSEP 1.8.25",
+      "lastChecked": "2026-05-26T21:55:46.395Z",
+      "supplies": {
+        "blackToner": {
+          "name": "Cartucho de toner preto, PN 106R03745;SN80110C074A080000",
+          "level": 17600,
+          "maxCapacity": 22000,
+          "percentage": 80,
+          "display": "80%",
+          "alertLevel": "green",
+          "available": true
+        },
+        "cyanToner": {
+          "name": "Cartucho de toner ciano, PN 106R03748;SN80094710CF070000",
+          "level": 1500,
+          "maxCapacity": 15000,
+          "percentage": 10,
+          "display": "10%",
+          "alertLevel": "red",
+          "available": true
+        },
+        "magentaToner": {
+          "name": "Cartucho de toner magenta, PN 106R03747;SN809B6111C5070000",
+          "level": 2250,
+          "maxCapacity": 15000,
+          "percentage": 15,
+          "display": "15%",
+          "alertLevel": "red",
+          "available": true
+        },
+        "yellowToner": {
+          "name": "Cartucho de toner amarelo, PN 106R03746;SN80C06004C5070000",
+          "level": 1350,
+          "maxCapacity": 15000,
+          "percentage": 9,
+          "display": "9%",
+          "alertLevel": "red",
+          "available": true
+        },
+        "fuser": {
+          "name": "Fusor, PN 115R00114",
+          "level": -3,
+          "maxCapacity": -2,
+          "percentage": null,
+          "display": "Não informado pelo equipamento",
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "drum": {
+          "name": "Cilindro",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "transferUnit": {
+          "name": "Rolo de transferência, PN 115R00126",
+          "level": -3,
+          "maxCapacity": -2,
+          "percentage": null,
+          "display": "Não informado pelo equipamento",
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "wasteToner": {
+          "name": "Cartucho de resíduos, PN 115R00128",
+          "level": -3,
+          "maxCapacity": 30000,
+          "percentage": null,
+          "display": "Não informado pelo equipamento",
+          "alertLevel": "unavailable",
+          "available": false
+        }
+      },
+      "otherSupplies": [
+        {
+          "name": "Cartucho do fotorreceptor preto, PN 113R00780;SN804B5D1357070000",
+          "level": 65520,
+          "maxCapacity": 109200,
+          "percentage": 60,
+          "display": "60%",
+          "alertLevel": "green",
+          "available": true
+        },
+        {
+          "name": "Cartucho do fotorreceptor amarelo, PN 113R00780;SN80DE5A1357070000",
+          "level": 56550,
+          "maxCapacity": 87000,
+          "percentage": 65,
+          "display": "65%",
+          "alertLevel": "green",
+          "available": true
+        },
+        {
+          "name": "Cartucho do fotorreceptor magenta, PN 113R00780;SN804D5D1357070000",
+          "level": 53070,
+          "maxCapacity": 87000,
+          "percentage": 61,
+          "display": "61%",
+          "alertLevel": "green",
+          "available": true
+        },
+        {
+          "name": "Cartucho do fotorreceptor ciano, PN 113R00780;SN80D55A1357070000",
+          "level": 56550,
+          "maxCapacity": 87000,
+          "percentage": 65,
+          "display": "65%",
+          "alertLevel": "green",
+          "available": true
+        },
+        {
+          "name": "Correia de transferência, PN 115R00127",
+          "level": -3,
+          "maxCapacity": -2,
+          "percentage": null,
+          "display": "Não informado pelo equipamento",
+          "alertLevel": "unavailable",
+          "available": false
+        }
+      ],
+      "trays": [
+        {
+          "name": "Bandeja 1",
+          "status": "OK",
+          "quantity": "75%",
+          "paperType": "Bandeja 1",
+          "level": 390,
+          "maxCapacity": 520,
+          "percentage": 75,
+          "alertLevel": "green",
+          "available": true
+        },
+        {
+          "name": "Bandeja 2",
+          "status": "Baixo",
+          "quantity": "50%",
+          "paperType": "Bandeja 2",
+          "level": 260,
+          "maxCapacity": 520,
+          "percentage": 50,
+          "alertLevel": "yellow",
+          "available": true
+        },
+        {
+          "name": "Bandeja manual",
+          "status": "Vazio",
+          "quantity": "0%",
+          "paperType": "Bandeja manual",
+          "level": 0,
+          "maxCapacity": 90,
+          "percentage": 0,
+          "alertLevel": "red",
+          "available": true
+        }
+      ],
+      "rawSupplyCount": 12,
+      "lastUpdated": "2026-05-26T21:55:46.430Z"
+    }
+  },
+  {
+    "id": "d57875ef-2f3e-4362-812f-3a20a79515c3",
+    "name": "SP-1LC-VENTURES-F1",
+    "model": "C405",
+    "ip": "10.33.247.90",
+    "location": "Globo Ventures",
+    "type": "color",
+    "snmpCommunity": null,
+    "createdAt": "2026-05-25T19:36:12.313Z",
+    "lastStatus": {
+      "online": true,
+      "deviceName": "SP-3LC-VENTURES-F1",
+      "systemDescription": "Xerox VersaLink C405; System 68.68.62, Controller 1.82.102, IOT 3.5.0, ADF 42.0.0, Fax 104.8.0, Panel 91.16.11, Boot 11.1.222, Contents 5.0.0, Plugin 3.0.1, RSEP 1.8.25",
+      "lastChecked": "2026-05-26T21:55:46.582Z"
+    },
+    "lastSupplies": {
+      "online": true,
+      "deviceName": "SP-3LC-VENTURES-F1",
+      "systemDescription": "Xerox VersaLink C405; System 68.68.62, Controller 1.82.102, IOT 3.5.0, ADF 42.0.0, Fax 104.8.0, Panel 91.16.11, Boot 11.1.222, Contents 5.0.0, Plugin 3.0.1, RSEP 1.8.25",
+      "lastChecked": "2026-05-26T21:55:46.582Z",
+      "supplies": {
+        "blackToner": {
+          "name": "Cartucho de toner preto, PN 106R03532;SN9300D7001D0D0000",
+          "level": 10500,
+          "maxCapacity": 10500,
+          "percentage": 100,
+          "display": "100%",
+          "alertLevel": "green",
+          "available": true
+        },
+        "cyanToner": {
+          "name": "Cartucho de toner ciano, PN 106R03534;SN5700860039090000",
+          "level": 480,
+          "maxCapacity": 8000,
+          "percentage": 6,
+          "display": "6%",
+          "alertLevel": "red",
+          "available": true
+        },
+        "magentaToner": {
+          "name": "Cartucho de toner magenta, PN 106R03535;SNAB008B0018080000",
+          "level": 1120,
+          "maxCapacity": 8000,
+          "percentage": 14,
+          "display": "14%",
+          "alertLevel": "red",
+          "available": true
+        },
+        "yellowToner": {
+          "name": "Cartucho de toner amarelo, PN 106R03533;SN5F008B0012090000",
+          "level": 1760,
+          "maxCapacity": 8000,
+          "percentage": 22,
+          "display": "22%",
+          "alertLevel": "yellow",
+          "available": true
+        },
+        "fuser": {
+          "name": "Fusor, PN 115R00088",
+          "level": -3,
+          "maxCapacity": -2,
+          "percentage": null,
+          "display": "Não informado pelo equipamento",
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "drum": {
+          "name": "Cilindro",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "transferUnit": {
+          "name": "Unidade de Transferência",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "wasteToner": {
+          "name": "Cartucho de resíduos, PN 108R01124",
+          "level": -3,
+          "maxCapacity": -2,
+          "percentage": null,
+          "display": "Não informado pelo equipamento",
+          "alertLevel": "unavailable",
+          "available": false
+        }
+      },
+      "otherSupplies": [
+        {
+          "name": "Kit de manutenção, PN 108R01122",
+          "level": -3,
+          "maxCapacity": -2,
+          "percentage": null,
+          "display": "Não informado pelo equipamento",
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        {
+          "name": "Kit de cartucho do fotorreceptor, PN 108R01121",
+          "level": 43200,
+          "maxCapacity": 60000,
+          "percentage": 72,
+          "display": "72%",
+          "alertLevel": "green",
+          "available": true
+        }
+      ],
+      "trays": [
+        {
+          "name": "Bandeja 1",
+          "status": "OK",
+          "quantity": "90%",
+          "paperType": "Bandeja 1",
+          "level": -3,
+          "maxCapacity": 550,
+          "percentage": 90,
+          "alertLevel": "green",
+          "available": true
+        },
+        {
+          "name": "Bandeja manual",
+          "status": "Vazio",
+          "quantity": "0%",
+          "paperType": "Bandeja manual",
+          "level": 0,
+          "maxCapacity": 150,
+          "percentage": 0,
+          "alertLevel": "red",
+          "available": true
+        }
+      ],
+      "rawSupplyCount": 8,
+      "lastUpdated": "2026-05-26T21:55:46.632Z"
+    }
+  },
+  {
+    "id": "805cb0aa-5a92-417e-93b6-eb247cd1a268",
+    "name": "IMP-INWS-GNEWS-1",
+    "model": "B620",
+    "ip": "10.33.247.180",
+    "location": "Globo News",
+    "type": "monochrome",
+    "snmpCommunity": null,
+    "createdAt": "2026-05-25T19:37:07.562Z",
+    "lastStatus": {
+      "online": true,
+      "deviceName": "IMP-INWS-GNEWS-1",
+      "systemDescription": "Xerox VersaLink B620; SS 122.027.025.24501, NC 122.027.24501, UI 122.027.24501, ME 230.334, CC 122.027.24501, FI 000.000.000, OS 230.334, SU 005.016",
+      "lastChecked": "2026-05-26T21:55:46.699Z"
+    },
+    "lastSupplies": {
+      "online": true,
+      "deviceName": "IMP-INWS-GNEWS-1",
+      "systemDescription": "Xerox VersaLink B620; SS 122.027.025.24501, NC 122.027.24501, UI 122.027.24501, ME 230.334, CC 122.027.24501, FI 000.000.000, OS 230.334, SU 005.016",
+      "lastChecked": "2026-05-26T21:55:46.699Z",
+      "supplies": {
+        "blackToner": {
+          "name": "Black Toner, PN  006R04674;SNCAB25016214A",
+          "level": 48400,
+          "maxCapacity": 55000,
+          "percentage": 88,
+          "display": "88%",
+          "alertLevel": "green",
+          "available": true
+        },
+        "cyanToner": {
+          "name": "Toner Ciano",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "magentaToner": {
+          "name": "Toner Magenta",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "yellowToner": {
+          "name": "Toner Amarelo",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "fuser": {
+          "name": "Fusor",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "drum": {
+          "name": "Cilindro",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "transferUnit": {
+          "name": "Unidade de Transferência",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "wasteToner": {
+          "name": "Resíduo de Toner",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        }
+      },
+      "otherSupplies": [
+        {
+          "name": "Black Imaging Unit, PN  013R00699;SNCAD242342346",
+          "level": 92,
+          "maxCapacity": 100,
+          "percentage": 92,
+          "display": "92%",
+          "alertLevel": "green",
+          "available": true
+        }
+      ],
+      "trays": [
+        {
+          "name": "Tray 1",
+          "status": "OK",
+          "quantity": "100%",
+          "paperType": "Tray 1",
+          "level": 550,
+          "maxCapacity": 550,
+          "percentage": 100,
+          "alertLevel": "green",
+          "available": true
+        },
+        {
+          "name": "Bypass Tray",
+          "status": "Vazio",
+          "quantity": "0%",
+          "paperType": "Bypass Tray",
+          "level": 0,
+          "maxCapacity": 100,
+          "percentage": 0,
+          "alertLevel": "red",
+          "available": true
+        }
+      ],
+      "rawSupplyCount": 2,
+      "lastUpdated": "2026-05-26T21:55:46.717Z"
+    }
+  },
+  {
+    "id": "1b131ced-e010-4714-8eeb-6ad7cac7eebf",
+    "name": "IMP-INWS-ARTE-1",
+    "model": "C400",
+    "ip": "10.33.247.62",
+    "location": "Arte",
+    "type": "color",
+    "snmpCommunity": null,
+    "createdAt": "2026-05-25T19:39:27.578Z",
+    "lastStatus": {
+      "online": true,
+      "deviceName": "IMP-INWS-ARTE-1",
+      "systemDescription": "Xerox VersaLink C400; System 67.52.1, Controller 1.60.0, IOT 3.4.0, Panel 91.16.11, Boot 11.1.216, Contents 5.0.0, Plugin 3.0.1, RSEP 1.8.25",
+      "lastChecked": "2026-05-26T21:55:46.853Z"
+    },
+    "lastSupplies": {
+      "online": true,
+      "deviceName": "IMP-INWS-ARTE-1",
+      "systemDescription": "Xerox VersaLink C400; System 67.52.1, Controller 1.60.0, IOT 3.4.0, Panel 91.16.11, Boot 11.1.216, Contents 5.0.0, Plugin 3.0.1, RSEP 1.8.25",
+      "lastChecked": "2026-05-26T21:55:46.853Z",
+      "supplies": {
+        "blackToner": {
+          "name": "Cartucho de toner preto, PN 106R03532;SN7100B500350B0000",
+          "level": 3465,
+          "maxCapacity": 10500,
+          "percentage": 33,
+          "display": "33%",
+          "alertLevel": "yellow",
+          "available": true
+        },
+        "cyanToner": {
+          "name": "Cartucho de toner ciano, PN 106R03534;SN1A00770025120000",
+          "level": 2720,
+          "maxCapacity": 8000,
+          "percentage": 34,
+          "display": "34%",
+          "alertLevel": "yellow",
+          "available": true
+        },
+        "magentaToner": {
+          "name": "Cartucho de toner magenta, PN 106R03535;SNA4006C0013090000",
+          "level": 2800,
+          "maxCapacity": 8000,
+          "percentage": 35,
+          "display": "35%",
+          "alertLevel": "yellow",
+          "available": true
+        },
+        "yellowToner": {
+          "name": "Cartucho de toner amarelo, PN 106R03533;SN1C005C0015090000",
+          "level": 1680,
+          "maxCapacity": 8000,
+          "percentage": 21,
+          "display": "21%",
+          "alertLevel": "yellow",
+          "available": true
+        },
+        "fuser": {
+          "name": "Fusor, PN 115R00088",
+          "level": -3,
+          "maxCapacity": -2,
+          "percentage": null,
+          "display": "Não informado pelo equipamento",
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "drum": {
+          "name": "Cilindro",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "transferUnit": {
+          "name": "Unidade de Transferência",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "wasteToner": {
+          "name": "Cartucho de resíduos, PN 108R01124",
+          "level": -3,
+          "maxCapacity": -2,
+          "percentage": null,
+          "display": "Não informado pelo equipamento",
+          "alertLevel": "unavailable",
+          "available": false
+        }
+      },
+      "otherSupplies": [
+        {
+          "name": "Kit de manutenção, PN 108R01122",
+          "level": -3,
+          "maxCapacity": -2,
+          "percentage": null,
+          "display": "Não informado pelo equipamento",
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        {
+          "name": "Kit de cartucho do fotorreceptor, PN 108R01121",
+          "level": 27600,
+          "maxCapacity": 60000,
+          "percentage": 46,
+          "display": "46%",
+          "alertLevel": "yellow",
+          "available": true
+        }
+      ],
+      "trays": [
+        {
+          "name": "Bandeja 1",
+          "status": "OK",
+          "quantity": "90%",
+          "paperType": "Bandeja 1",
+          "level": -3,
+          "maxCapacity": 550,
+          "percentage": 90,
+          "alertLevel": "green",
+          "available": true
+        },
+        {
+          "name": "Bandeja manual",
+          "status": "Vazio",
+          "quantity": "0%",
+          "paperType": "Bandeja manual",
+          "level": 0,
+          "maxCapacity": 150,
+          "percentage": 0,
+          "alertLevel": "red",
+          "available": true
+        }
+      ],
+      "rawSupplyCount": 8,
+      "lastUpdated": "2026-05-26T21:55:46.903Z"
+    }
+  },
+  {
+    "id": "4c939787-8257-4c85-9010-8ee785bc1ff5",
+    "name": "MOD3-TALP-XER-F7",
+    "model": "B415",
+    "ip": "10.33.247.88",
+    "location": "Almoxarifado Estúdios",
+    "type": "monochrome",
+    "snmpCommunity": null,
+    "createdAt": "2026-05-25T19:40:08.355Z",
+    "lastStatus": {
+      "online": true,
+      "deviceName": "MOD3-TALP-XER-F7",
+      "systemDescription": "Xerox VersaLink B415; SS 120.029.003.20000, NC 120.029.20000, UI 120.029.20000, ME 221.133, CC 120.029.20000, DF 221.133, FI 000.000.000, FA 003.019.002, OS 221.133, SC 221.133, SU 003.012",
+      "lastChecked": "2026-05-26T21:55:46.993Z"
+    },
+    "lastSupplies": {
+      "online": true,
+      "deviceName": "MOD3-TALP-XER-F7",
+      "systemDescription": "Xerox VersaLink B415; SS 120.029.003.20000, NC 120.029.20000, UI 120.029.20000, ME 221.133, CC 120.029.20000, DF 221.133, FI 000.000.000, FA 003.019.002, OS 221.133, SC 221.133, SU 003.012",
+      "lastChecked": "2026-05-26T21:55:46.993Z",
+      "supplies": {
+        "blackToner": {
+          "name": "Black Toner, PN  006R04731;SNCAB252460591",
+          "level": 25000,
+          "maxCapacity": 25000,
+          "percentage": 100,
+          "display": "100%",
+          "alertLevel": "green",
+          "available": true
+        },
+        "cyanToner": {
+          "name": "Toner Ciano",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "magentaToner": {
+          "name": "Toner Magenta",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "yellowToner": {
+          "name": "Toner Amarelo",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "fuser": {
+          "name": "Fusor",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "drum": {
+          "name": "Cilindro",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "transferUnit": {
+          "name": "Unidade de Transferência",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "wasteToner": {
+          "name": "Resíduo de Toner",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        }
+      },
+      "otherSupplies": [
+        {
+          "name": "Black Imaging Unit, PN  013R00702;SNCAB2400903C1",
+          "level": 87,
+          "maxCapacity": 100,
+          "percentage": 87,
+          "display": "87%",
+          "alertLevel": "green",
+          "available": true
+        }
+      ],
+      "trays": [
+        {
+          "name": "Tray 1",
+          "status": "Indisponível",
+          "quantity": "Não informado pelo equipamento",
+          "paperType": "Tray 1",
+          "level": -3,
+          "maxCapacity": 550,
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        {
+          "name": "Bypass Tray",
+          "status": "Vazio",
+          "quantity": "0%",
+          "paperType": "Bypass Tray",
+          "level": 0,
+          "maxCapacity": 100,
+          "percentage": 0,
+          "alertLevel": "red",
+          "available": true
+        }
+      ],
+      "rawSupplyCount": 2,
+      "lastUpdated": "2026-05-26T21:55:47.007Z"
+    }
+  },
+  {
+    "id": "cff05af8-40a4-490b-a868-83daf39e35d7",
+    "name": "MOD3-TALP-AMOX- RECEX-F1",
+    "model": "B620",
+    "ip": "10.33.247.94",
+    "location": "AMOX RECEX",
+    "type": "monochrome",
+    "snmpCommunity": null,
+    "createdAt": "2026-05-25T19:40:53.756Z",
+    "lastStatus": {
+      "online": true,
+      "deviceName": "MOD3-TALP-AMOX- RECEX-F1",
+      "systemDescription": "Xerox VersaLink B620; SS 122.027.005.15400, NC 122.027.15400, UI 122.027.15400, ME 230.332, CC 122.027.15400, FI 000.000.000, OS 230.332, SU 005.016",
+      "lastChecked": "2026-05-26T21:55:47.099Z"
+    },
+    "lastSupplies": {
+      "online": true,
+      "deviceName": "MOD3-TALP-AMOX- RECEX-F1",
+      "systemDescription": "Xerox VersaLink B620; SS 122.027.005.15400, NC 122.027.15400, UI 122.027.15400, ME 230.332, CC 122.027.15400, FI 000.000.000, OS 230.332, SU 005.016",
+      "lastChecked": "2026-05-26T21:55:47.099Z",
+      "supplies": {
+        "blackToner": {
+          "name": "Black Toner, PN ;SNCAD242290971",
+          "level": 8700,
+          "maxCapacity": 10000,
+          "percentage": 87,
+          "display": "87%",
+          "alertLevel": "green",
+          "available": true
+        },
+        "cyanToner": {
+          "name": "Toner Ciano",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "magentaToner": {
+          "name": "Toner Magenta",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "yellowToner": {
+          "name": "Toner Amarelo",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "fuser": {
+          "name": "Fusor",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "drum": {
+          "name": "Cilindro",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "transferUnit": {
+          "name": "Unidade de Transferência",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "wasteToner": {
+          "name": "Resíduo de Toner",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        }
+      },
+      "otherSupplies": [
+        {
+          "name": "Black Imaging Unit, PN  013R00699;SNCAD242342341",
+          "level": 100,
+          "maxCapacity": 100,
+          "percentage": 100,
+          "display": "100%",
+          "alertLevel": "green",
+          "available": true
+        }
+      ],
+      "trays": [
+        {
+          "name": "Tray 1",
+          "status": "OK",
+          "quantity": "100%",
+          "paperType": "Tray 1",
+          "level": 550,
+          "maxCapacity": 550,
+          "percentage": 100,
+          "alertLevel": "green",
+          "available": true
+        },
+        {
+          "name": "Bypass Tray",
+          "status": "Vazio",
+          "quantity": "0%",
+          "paperType": "Bypass Tray",
+          "level": 0,
+          "maxCapacity": 100,
+          "percentage": 0,
+          "alertLevel": "red",
+          "available": true
+        }
+      ],
+      "rawSupplyCount": 2,
+      "lastUpdated": "2026-05-26T21:55:47.109Z"
+    }
+  },
+  {
+    "id": "c26bdc48-6b31-4d00-8cd8-cd74a03f27e7",
+    "name": "SP-TALP-CEN-F1",
+    "model": "B620",
+    "ip": "10.33.247.82",
+    "location": "Cenográfia",
+    "type": "monochrome",
+    "snmpCommunity": null,
+    "createdAt": "2026-05-25T19:41:33.996Z",
+    "lastStatus": {
+      "online": true,
+      "deviceName": "SP-TALP-CEN-F1",
+      "systemDescription": "Xerox VersaLink B620; SS 122.027.025.24501, NC 122.027.24501, UI 122.027.24501, ME 230.334, CC 122.027.24501, FI 000.000.000, OS 230.334, SU 005.016",
+      "lastChecked": "2026-05-26T21:55:47.212Z"
+    },
+    "lastSupplies": {
+      "online": true,
+      "deviceName": "SP-TALP-CEN-F1",
+      "systemDescription": "Xerox VersaLink B620; SS 122.027.025.24501, NC 122.027.24501, UI 122.027.24501, ME 230.334, CC 122.027.24501, FI 000.000.000, OS 230.334, SU 005.016",
+      "lastChecked": "2026-05-26T21:55:47.212Z",
+      "supplies": {
+        "blackToner": {
+          "name": "Black Toner, PN ;SNCAD242293AF6",
+          "level": 6800,
+          "maxCapacity": 10000,
+          "percentage": 68,
+          "display": "68%",
+          "alertLevel": "green",
+          "available": true
+        },
+        "cyanToner": {
+          "name": "Toner Ciano",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "magentaToner": {
+          "name": "Toner Magenta",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "yellowToner": {
+          "name": "Toner Amarelo",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "fuser": {
+          "name": "Fusor",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "drum": {
+          "name": "Cilindro",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "transferUnit": {
+          "name": "Unidade de Transferência",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "wasteToner": {
+          "name": "Resíduo de Toner",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        }
+      },
+      "otherSupplies": [
+        {
+          "name": "Black Imaging Unit, PN  013R00699;SNCAD2423422BA",
+          "level": 100,
+          "maxCapacity": 100,
+          "percentage": 100,
+          "display": "100%",
+          "alertLevel": "green",
+          "available": true
+        }
+      ],
+      "trays": [
+        {
+          "name": "Tray 1",
+          "status": "OK",
+          "quantity": "100%",
+          "paperType": "Tray 1",
+          "level": 550,
+          "maxCapacity": 550,
+          "percentage": 100,
+          "alertLevel": "green",
+          "available": true
+        },
+        {
+          "name": "Bypass Tray",
+          "status": "Vazio",
+          "quantity": "0%",
+          "paperType": "Bypass Tray",
+          "level": 0,
+          "maxCapacity": 100,
+          "percentage": 0,
+          "alertLevel": "red",
+          "available": true
+        }
+      ],
+      "rawSupplyCount": 2,
+      "lastUpdated": "2026-05-26T21:55:47.230Z"
+    }
+  },
+  {
+    "id": "a39808fe-c509-4123-b928-2b644f2c9d98",
+    "name": "IMP-INWS-CTL2-2",
+    "model": "B620",
+    "ip": "10.33.247.51",
+    "location": "Controle 2",
+    "type": "monochrome",
+    "snmpCommunity": null,
+    "createdAt": "2026-05-25T19:42:06.836Z",
+    "lastStatus": {
+      "online": true,
+      "deviceName": "IMP-INWS-CTL2-2",
+      "systemDescription": "Xerox VersaLink B620; SS 122.027.005.15400, NC 122.027.15400, UI 122.027.15400, ME 230.332, CC 122.027.15400, FI 000.000.000, OS 230.332, SU 005.016",
+      "lastChecked": "2026-05-26T21:55:47.313Z"
+    },
+    "lastSupplies": {
+      "online": true,
+      "deviceName": "IMP-INWS-CTL2-2",
+      "systemDescription": "Xerox VersaLink B620; SS 122.027.005.15400, NC 122.027.15400, UI 122.027.15400, ME 230.332, CC 122.027.15400, FI 000.000.000, OS 230.332, SU 005.016",
+      "lastChecked": "2026-05-26T21:55:47.313Z",
+      "supplies": {
+        "blackToner": {
+          "name": "Black Toner, PN ;SNCAD242293A9A",
+          "level": 2100,
+          "maxCapacity": 10000,
+          "percentage": 21,
+          "display": "21%",
+          "alertLevel": "yellow",
+          "available": true
+        },
+        "cyanToner": {
+          "name": "Toner Ciano",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "magentaToner": {
+          "name": "Toner Magenta",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "yellowToner": {
+          "name": "Toner Amarelo",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "fuser": {
+          "name": "Fusor",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "drum": {
+          "name": "Cilindro",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "transferUnit": {
+          "name": "Unidade de Transferência",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "wasteToner": {
+          "name": "Resíduo de Toner",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        }
+      },
+      "otherSupplies": [
+        {
+          "name": "Black Imaging Unit, PN  013R00699;SNCAD242342331",
+          "level": 100,
+          "maxCapacity": 100,
+          "percentage": 100,
+          "display": "100%",
+          "alertLevel": "green",
+          "available": true
+        }
+      ],
+      "trays": [
+        {
+          "name": "Tray 1",
+          "status": "OK",
+          "quantity": "100%",
+          "paperType": "Tray 1",
+          "level": 550,
+          "maxCapacity": 550,
+          "percentage": 100,
+          "alertLevel": "green",
+          "available": true
+        },
+        {
+          "name": "Bypass Tray",
+          "status": "Vazio",
+          "quantity": "0%",
+          "paperType": "Bypass Tray",
+          "level": 0,
+          "maxCapacity": 100,
+          "percentage": 0,
+          "alertLevel": "red",
+          "available": true
+        }
+      ],
+      "rawSupplyCount": 2,
+      "lastUpdated": "2026-05-26T21:55:47.330Z"
+    }
+  },
+  {
+    "id": "32d1592d-2927-489d-b6c1-2f522ed02e48",
+    "name": "IMP-INWS-CTL1-2",
+    "model": "B620",
+    "ip": "10.33.247.174",
+    "location": "Controle 1",
+    "type": "monochrome",
+    "snmpCommunity": null,
+    "createdAt": "2026-05-25T19:42:48.692Z",
+    "lastStatus": {
+      "online": true,
+      "deviceName": "IMP-INWS-CTL1-2",
+      "systemDescription": "Xerox VersaLink B620; SS 122.027.005.15400, NC 122.027.15400, UI 122.027.15400, ME 230.332, CC 122.027.15400, FI 000.000.000, OS 230.332, SU 005.016",
+      "lastChecked": "2026-05-26T21:55:47.419Z"
+    },
+    "lastSupplies": {
+      "online": true,
+      "deviceName": "IMP-INWS-CTL1-2",
+      "systemDescription": "Xerox VersaLink B620; SS 122.027.005.15400, NC 122.027.15400, UI 122.027.15400, ME 230.332, CC 122.027.15400, FI 000.000.000, OS 230.332, SU 005.016",
+      "lastChecked": "2026-05-26T21:55:47.419Z",
+      "supplies": {
+        "blackToner": {
+          "name": "Black Toner, PN ;SNCAD242293A8F",
+          "level": 5900,
+          "maxCapacity": 10000,
+          "percentage": 59,
+          "display": "59%",
+          "alertLevel": "green",
+          "available": true
+        },
+        "cyanToner": {
+          "name": "Toner Ciano",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "magentaToner": {
+          "name": "Toner Magenta",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "yellowToner": {
+          "name": "Toner Amarelo",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "fuser": {
+          "name": "Fusor",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "drum": {
+          "name": "Cilindro",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "transferUnit": {
+          "name": "Unidade de Transferência",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "wasteToner": {
+          "name": "Resíduo de Toner",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        }
+      },
+      "otherSupplies": [
+        {
+          "name": "Black Imaging Unit, PN  013R00699;SNCAD242401070",
+          "level": 100,
+          "maxCapacity": 100,
+          "percentage": 100,
+          "display": "100%",
+          "alertLevel": "green",
+          "available": true
+        }
+      ],
+      "trays": [
+        {
+          "name": "Tray 1",
+          "status": "OK",
+          "quantity": "100%",
+          "paperType": "Tray 1",
+          "level": 550,
+          "maxCapacity": 550,
+          "percentage": 100,
+          "alertLevel": "green",
+          "available": true
+        },
+        {
+          "name": "Bypass Tray",
+          "status": "Vazio",
+          "quantity": "0%",
+          "paperType": "Bypass Tray",
+          "level": 0,
+          "maxCapacity": 100,
+          "percentage": 0,
+          "alertLevel": "red",
+          "available": true
+        }
+      ],
+      "rawSupplyCount": 2,
+      "lastUpdated": "2026-05-26T21:55:47.431Z"
+    }
+  },
+  {
+    "id": "f080c606-9d11-4329-9ea0-a97b6acc28ad",
+    "name": "IMP-INWS-CTL4-2",
+    "model": "B620",
+    "ip": "10.33.247.100",
+    "location": "Controle 4",
+    "type": "monochrome",
+    "snmpCommunity": null,
+    "createdAt": "2026-05-25T19:43:19.877Z",
+    "lastStatus": {
+      "online": true,
+      "deviceName": "IMP-INWS-CTL4-2",
+      "systemDescription": "Xerox VersaLink B620; SS 122.027.005.15400, NC 122.027.15400, UI 122.027.15400, ME 230.332, CC 122.027.15400, FI 000.000.000, OS 230.332, SU 005.016",
+      "lastChecked": "2026-05-26T21:55:47.515Z"
+    },
+    "lastSupplies": {
+      "online": true,
+      "deviceName": "IMP-INWS-CTL4-2",
+      "systemDescription": "Xerox VersaLink B620; SS 122.027.005.15400, NC 122.027.15400, UI 122.027.15400, ME 230.332, CC 122.027.15400, FI 000.000.000, OS 230.332, SU 005.016",
+      "lastChecked": "2026-05-26T21:55:47.515Z",
+      "supplies": {
+        "blackToner": {
+          "name": "Black Toner, PN ;SNCAD242290AFE",
+          "level": 10000,
+          "maxCapacity": 10000,
+          "percentage": 100,
+          "display": "100%",
+          "alertLevel": "green",
+          "available": true
+        },
+        "cyanToner": {
+          "name": "Toner Ciano",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "magentaToner": {
+          "name": "Toner Magenta",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "yellowToner": {
+          "name": "Toner Amarelo",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "fuser": {
+          "name": "Fusor",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "drum": {
+          "name": "Cilindro",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "transferUnit": {
+          "name": "Unidade de Transferência",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "wasteToner": {
+          "name": "Resíduo de Toner",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        }
+      },
+      "otherSupplies": [
+        {
+          "name": "Black Imaging Unit, PN  013R00699;SNCAD242401049",
+          "level": 100,
+          "maxCapacity": 100,
+          "percentage": 100,
+          "display": "100%",
+          "alertLevel": "green",
+          "available": true
+        }
+      ],
+      "trays": [
+        {
+          "name": "Tray 1",
+          "status": "OK",
+          "quantity": "100%",
+          "paperType": "Tray 1",
+          "level": 550,
+          "maxCapacity": 550,
+          "percentage": 100,
+          "alertLevel": "green",
+          "available": true
+        },
+        {
+          "name": "Bypass Tray",
+          "status": "Vazio",
+          "quantity": "0%",
+          "paperType": "Bypass Tray",
+          "level": 0,
+          "maxCapacity": 100,
+          "percentage": 0,
+          "alertLevel": "red",
+          "available": true
+        }
+      ],
+      "rawSupplyCount": 2,
+      "lastUpdated": "2026-05-26T21:55:47.536Z"
+    }
+  },
+  {
+    "id": "adf3ec58-56ee-4043-82af-ccafdd23d29f",
+    "name": "IMP-INWS-PROD-1",
+    "model": "C7025",
+    "ip": "10.33.247.27",
+    "location": "PROD-1",
+    "type": "color",
+    "snmpCommunity": null,
+    "createdAt": "2026-05-25T19:44:03.863Z",
+    "lastStatus": {
+      "online": true,
+      "deviceName": "IMP-INWS-PROD-1",
+      "systemDescription": "Xerox VersaLink C7025; System 57.42.1, Controller 1.50.8, IOT 64.17.0, ADF 31.16.0, Panel 155.116.11, Boot 11.1.207, Contents 5.0.0, Plugin 3.0.1, RSEP 1.8.23",
+      "lastChecked": "2026-05-26T21:55:47.695Z"
+    },
+    "lastSupplies": {
+      "online": true,
+      "deviceName": "IMP-INWS-PROD-1",
+      "systemDescription": "Xerox VersaLink C7025; System 57.42.1, Controller 1.50.8, IOT 64.17.0, ADF 31.16.0, Panel 155.116.11, Boot 11.1.207, Contents 5.0.0, Plugin 3.0.1, RSEP 1.8.23",
+      "lastChecked": "2026-05-26T21:55:47.695Z",
+      "supplies": {
+        "blackToner": {
+          "name": "Cartucho de toner preto, PN 106R03745;SN80AC1B0654080000",
+          "level": 16060,
+          "maxCapacity": 22000,
+          "percentage": 73,
+          "display": "73%",
+          "alertLevel": "green",
+          "available": true
+        },
+        "cyanToner": {
+          "name": "Cartucho de toner ciano, PN 106R03748;SN80D623104E080000",
+          "level": 10500,
+          "maxCapacity": 15000,
+          "percentage": 70,
+          "display": "70%",
+          "alertLevel": "green",
+          "available": true
+        },
+        "magentaToner": {
+          "name": "Cartucho de toner magenta, PN 106R03747;SN80973A0443080000",
+          "level": 6150,
+          "maxCapacity": 15000,
+          "percentage": 41,
+          "display": "41%",
+          "alertLevel": "yellow",
+          "available": true
+        },
+        "yellowToner": {
+          "name": "Cartucho de toner amarelo, PN 106R03746;SN80786704BD070000",
+          "level": 450,
+          "maxCapacity": 15000,
+          "percentage": 3,
+          "display": "3%",
+          "alertLevel": "red",
+          "available": true
+        },
+        "fuser": {
+          "name": "Fusor, PN 115R00114",
+          "level": -3,
+          "maxCapacity": -2,
+          "percentage": null,
+          "display": "Não informado pelo equipamento",
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "drum": {
+          "name": "Cilindro",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "transferUnit": {
+          "name": "Rolo de transferência, PN 115R00126",
+          "level": -3,
+          "maxCapacity": -2,
+          "percentage": null,
+          "display": "Não informado pelo equipamento",
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "wasteToner": {
+          "name": "Cartucho de resíduos, PN 115R00128",
+          "level": -3,
+          "maxCapacity": 30000,
+          "percentage": null,
+          "display": "Não informado pelo equipamento",
+          "alertLevel": "unavailable",
+          "available": false
+        }
+      },
+      "otherSupplies": [
+        {
+          "name": "Cartucho do fotorreceptor preto, PN 113R00780;SN803042043E080000",
+          "level": 85176,
+          "maxCapacity": 109200,
+          "percentage": 78,
+          "display": "78%",
+          "alertLevel": "green",
+          "available": true
+        },
+        {
+          "name": "Cartucho do fotorreceptor amarelo, PN 113R00780;SN8039481657070000",
+          "level": 0,
+          "maxCapacity": 87000,
+          "percentage": 0,
+          "display": "0%",
+          "alertLevel": "red",
+          "available": true
+        },
+        {
+          "name": "Cartucho do fotorreceptor magenta, PN 113R00780;SN80CB501657070000",
+          "level": 0,
+          "maxCapacity": 87000,
+          "percentage": 0,
+          "display": "0%",
+          "alertLevel": "red",
+          "available": true
+        },
+        {
+          "name": "Cartucho do fotorreceptor ciano, PN 113R00780;SN80C6501657070000",
+          "level": 0,
+          "maxCapacity": 87000,
+          "percentage": 0,
+          "display": "0%",
+          "alertLevel": "red",
+          "available": true
+        },
+        {
+          "name": "Correia de transferência, PN 115R00127",
+          "level": -3,
+          "maxCapacity": -2,
+          "percentage": null,
+          "display": "Não informado pelo equipamento",
+          "alertLevel": "unavailable",
+          "available": false
+        }
+      ],
+      "trays": [
+        {
+          "name": "Bandeja 1",
+          "status": "OK",
+          "quantity": "100%",
+          "paperType": "Bandeja 1",
+          "level": 520,
+          "maxCapacity": 520,
+          "percentage": 100,
+          "alertLevel": "green",
+          "available": true
+        },
+        {
+          "name": "Bandeja 2",
+          "status": "Baixo",
+          "quantity": "50%",
+          "paperType": "Bandeja 2",
+          "level": 260,
+          "maxCapacity": 520,
+          "percentage": 50,
+          "alertLevel": "yellow",
+          "available": true
+        },
+        {
+          "name": "Bandeja 3",
+          "status": "Baixo",
+          "quantity": "25%",
+          "paperType": "Bandeja 3",
+          "level": 130,
+          "maxCapacity": 520,
+          "percentage": 25,
+          "alertLevel": "yellow",
+          "available": true
+        },
+        {
+          "name": "Bandeja 4",
+          "status": "Baixo",
+          "quantity": "50%",
+          "paperType": "Bandeja 4",
+          "level": 260,
+          "maxCapacity": 520,
+          "percentage": 50,
+          "alertLevel": "yellow",
+          "available": true
+        },
+        {
+          "name": "Bandeja manual",
+          "status": "Vazio",
+          "quantity": "0%",
+          "paperType": "Bandeja manual",
+          "level": 0,
+          "maxCapacity": 90,
+          "percentage": 0,
+          "alertLevel": "red",
+          "available": true
+        }
+      ],
+      "rawSupplyCount": 12,
+      "lastUpdated": "2026-05-26T21:55:47.746Z"
+    }
+  },
+  {
+    "id": "2266da47-5fb2-45f6-adc3-34aaf675af86",
+    "name": "IMP-INWS-PROD-2",
+    "model": "B405",
+    "ip": "10.33.247.23",
+    "location": "PROD-2",
+    "type": "monochrome",
+    "snmpCommunity": null,
+    "createdAt": "2026-05-25T19:44:37.913Z",
+    "lastStatus": {
+      "online": true,
+      "deviceName": "IMP-INWS-EDSP-1",
+      "systemDescription": "Xerox VersaLink B405; System 38.42.1, Controller 1.50.8, IOT 2.7.0, ADF 1.0.10, Fax 104.7.0, Panel 91.16.11, Boot 11.1.207, Contents 5.0.0, Plugin 3.0.1, RSEP 1.8.23",
+      "lastChecked": "2026-05-26T21:55:47.905Z"
+    },
+    "lastSupplies": {
+      "online": true,
+      "deviceName": "IMP-INWS-EDSP-1",
+      "systemDescription": "Xerox VersaLink B405; System 38.42.1, Controller 1.50.8, IOT 2.7.0, ADF 1.0.10, Fax 104.7.0, Panel 91.16.11, Boot 11.1.207, Contents 5.0.0, Plugin 3.0.1, RSEP 1.8.23",
+      "lastChecked": "2026-05-26T21:55:47.905Z",
+      "supplies": {
+        "blackToner": {
+          "name": "Toner Preto",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "cyanToner": {
+          "name": "Toner Ciano",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "magentaToner": {
+          "name": "Toner Magenta",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "yellowToner": {
+          "name": "Toner Amarelo",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "fuser": {
+          "name": "Fusor",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "drum": {
+          "name": "Cilindro",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "transferUnit": {
+          "name": "Unidade de Transferência",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "wasteToner": {
+          "name": "Resíduo de Toner",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        }
+      },
+      "otherSupplies": [
+        {
+          "name": "Cartucho de toner, PN 106R03585;SNA200C90002030000",
+          "level": 7626,
+          "maxCapacity": 24600,
+          "percentage": 31,
+          "display": "31%",
+          "alertLevel": "yellow",
+          "available": true
+        },
+        {
+          "name": "Cartucho do fotorreceptor, PN 101R00554;SNB100440021060000",
+          "level": 22100,
+          "maxCapacity": 85000,
+          "percentage": 26,
+          "display": "26%",
+          "alertLevel": "yellow",
+          "available": true
+        },
+        {
+          "name": "Kit de manutenção, PN 115R00119",
+          "level": -3,
+          "maxCapacity": -2,
+          "percentage": null,
+          "display": "Não informado pelo equipamento",
+          "alertLevel": "unavailable",
+          "available": false
+        }
+      ],
+      "trays": [
+        {
+          "name": "Bandeja 1",
+          "status": "OK",
+          "quantity": "70%",
+          "paperType": "Bandeja 1",
+          "level": -3,
+          "maxCapacity": 550,
+          "percentage": 70,
+          "alertLevel": "green",
+          "available": true
+        },
+        {
+          "name": "Bandeja manual",
+          "status": "Vazio",
+          "quantity": "0%",
+          "paperType": "Bandeja manual",
+          "level": 0,
+          "maxCapacity": 150,
+          "percentage": 0,
+          "alertLevel": "red",
+          "available": true
+        }
+      ],
+      "rawSupplyCount": 3,
+      "lastUpdated": "2026-05-26T21:55:47.929Z"
+    }
+  },
+  {
+    "id": "8db7619b-2de0-47d2-a641-88f59ee38e53",
+    "name": "IMP-INWS-INTERNET-1",
+    "model": "B620",
+    "ip": "10.33.247.173",
+    "location": "INTERNET JORNALISMO",
+    "type": "monochrome",
+    "snmpCommunity": null,
+    "createdAt": "2026-05-25T19:45:28.886Z",
+    "lastStatus": {
+      "online": true,
+      "deviceName": "IMP-INWS-INTERNET-1",
+      "systemDescription": "Xerox VersaLink B620; SS 122.027.025.24501, NC 122.027.24501, UI 122.027.24501, ME 230.334, CC 122.027.24501, FI 000.000.000, OS 230.334, SU 005.016",
+      "lastChecked": "2026-05-26T21:55:48.000Z"
+    },
+    "lastSupplies": {
+      "online": true,
+      "deviceName": "IMP-INWS-INTERNET-1",
+      "systemDescription": "Xerox VersaLink B620; SS 122.027.025.24501, NC 122.027.24501, UI 122.027.24501, ME 230.334, CC 122.027.24501, FI 000.000.000, OS 230.334, SU 005.016",
+      "lastChecked": "2026-05-26T21:55:48.000Z",
+      "supplies": {
+        "blackToner": {
+          "name": "Black Toner, PN  006R04674;SNCAB25016221A",
+          "level": 55000,
+          "maxCapacity": 55000,
+          "percentage": 100,
+          "display": "100%",
+          "alertLevel": "green",
+          "available": true
+        },
+        "cyanToner": {
+          "name": "Toner Ciano",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "magentaToner": {
+          "name": "Toner Magenta",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "yellowToner": {
+          "name": "Toner Amarelo",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "fuser": {
+          "name": "Fusor",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "drum": {
+          "name": "Cilindro",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "transferUnit": {
+          "name": "Unidade de Transferência",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "wasteToner": {
+          "name": "Resíduo de Toner",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        }
+      },
+      "otherSupplies": [
+        {
+          "name": "Black Imaging Unit, PN  013R00699;SNCAD2424010DF",
+          "level": 92,
+          "maxCapacity": 100,
+          "percentage": 92,
+          "display": "92%",
+          "alertLevel": "green",
+          "available": true
+        }
+      ],
+      "trays": [
+        {
+          "name": "Tray 1",
+          "status": "OK",
+          "quantity": "100%",
+          "paperType": "Tray 1",
+          "level": 550,
+          "maxCapacity": 550,
+          "percentage": 100,
+          "alertLevel": "green",
+          "available": true
+        },
+        {
+          "name": "Bypass Tray",
+          "status": "Vazio",
+          "quantity": "0%",
+          "paperType": "Bypass Tray",
+          "level": 0,
+          "maxCapacity": 100,
+          "percentage": 0,
+          "alertLevel": "red",
+          "available": true
+        }
+      ],
+      "rawSupplyCount": 2,
+      "lastUpdated": "2026-05-26T21:55:48.026Z"
+    }
+  },
+  {
+    "id": "08889036-d270-4237-86d9-a08fa2887a3c",
+    "name": "MOD3-TBLC-XER-F5",
+    "model": "C7030",
+    "ip": "10.33.247.37",
+    "location": "HUB -PRODUÇÕES",
+    "type": "color",
+    "snmpCommunity": null,
+    "createdAt": "2026-05-25T19:46:00.175Z",
+    "lastStatus": {
+      "online": true,
+      "deviceName": "MOD3-TBLC-XER-F5",
+      "systemDescription": "Xerox VersaLink C7030; System 57.75.83, Controller 1.94.115, IOT 65.6.0, ADF 31.20.0, Panel 155.116.11, Boot 11.1.235, Contents 5.0.0, Plugin 4.0.5, RSEP 1.8.25",
+      "lastChecked": "2026-05-26T21:55:48.197Z"
+    },
+    "lastSupplies": {
+      "online": true,
+      "deviceName": "MOD3-TBLC-XER-F5",
+      "systemDescription": "Xerox VersaLink C7030; System 57.75.83, Controller 1.94.115, IOT 65.6.0, ADF 31.20.0, Panel 155.116.11, Boot 11.1.235, Contents 5.0.0, Plugin 4.0.5, RSEP 1.8.25",
+      "lastChecked": "2026-05-26T21:55:48.197Z",
+      "supplies": {
+        "blackToner": {
+          "name": "Black Toner Cartridge, PN 106R03745;SN8035361251080000",
+          "level": 3520,
+          "maxCapacity": 22000,
+          "percentage": 16,
+          "display": "16%",
+          "alertLevel": "red",
+          "available": true
+        },
+        "cyanToner": {
+          "name": "Yellow Toner Cartridge, PN 106R03746;SN806D5212DB070000",
+          "level": 2700,
+          "maxCapacity": 15000,
+          "percentage": 18,
+          "display": "18%",
+          "alertLevel": "red",
+          "available": true
+        },
+        "magentaToner": {
+          "name": "Magenta Drum Cartridge, PN 113R00780;SN80D63D0C42080000",
+          "level": 69012,
+          "maxCapacity": 97200,
+          "percentage": 71,
+          "display": "71%",
+          "alertLevel": "green",
+          "available": true
+        },
+        "yellowToner": {
+          "name": "Yellow Drum Cartridge, PN 113R00780;SN805E460C42080000",
+          "level": 69012,
+          "maxCapacity": 97200,
+          "percentage": 71,
+          "display": "71%",
+          "alertLevel": "green",
+          "available": true
+        },
+        "fuser": {
+          "name": "Fuser, PN 115R00114",
+          "level": -3,
+          "maxCapacity": -2,
+          "percentage": null,
+          "display": "Não informado pelo equipamento",
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "drum": {
+          "name": "Cilindro",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "transferUnit": {
+          "name": "Transfer Roller, PN 115R00126",
+          "level": -3,
+          "maxCapacity": -2,
+          "percentage": null,
+          "display": "Não informado pelo equipamento",
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "wasteToner": {
+          "name": "Waste Cartridge, PN 115R00128",
+          "level": -3,
+          "maxCapacity": 30000,
+          "percentage": null,
+          "display": "Não informado pelo equipamento",
+          "alertLevel": "unavailable",
+          "available": false
+        }
+      },
+      "otherSupplies": [
+        {
+          "name": "Magenta Toner Cartridge, PN 106R03747;SN80EA500555080000",
+          "level": 13650,
+          "maxCapacity": 15000,
+          "percentage": 91,
+          "display": "91%",
+          "alertLevel": "green",
+          "available": true
+        },
+        {
+          "name": "Cyan Toner Cartridge, PN 106R03748;SN8071473307070000",
+          "level": 1500,
+          "maxCapacity": 15000,
+          "percentage": 10,
+          "display": "10%",
+          "alertLevel": "red",
+          "available": true
+        },
+        {
+          "name": "Black Drum Cartridge, PN 113R00780;SN80E2550B46070000",
+          "level": 6990,
+          "maxCapacity": 116500,
+          "percentage": 6,
+          "display": "6%",
+          "alertLevel": "red",
+          "available": true
+        },
+        {
+          "name": "Cyan Drum Cartridge, PN 113R00780;SN808D110A42080000",
+          "level": 69012,
+          "maxCapacity": 97200,
+          "percentage": 71,
+          "display": "71%",
+          "alertLevel": "green",
+          "available": true
+        },
+        {
+          "name": "Transfer Belt, PN 115R00127",
+          "level": -3,
+          "maxCapacity": -2,
+          "percentage": null,
+          "display": "Não informado pelo equipamento",
+          "alertLevel": "unavailable",
+          "available": false
+        }
+      ],
+      "trays": [
+        {
+          "name": "Tray 1",
+          "status": "OK",
+          "quantity": "75%",
+          "paperType": "Tray 1",
+          "level": 390,
+          "maxCapacity": 520,
+          "percentage": 75,
+          "alertLevel": "green",
+          "available": true
+        },
+        {
+          "name": "Tray 2",
+          "status": "Baixo",
+          "quantity": "50%",
+          "paperType": "Tray 2",
+          "level": 260,
+          "maxCapacity": 520,
+          "percentage": 50,
+          "alertLevel": "yellow",
+          "available": true
+        },
+        {
+          "name": "Bypass Tray",
+          "status": "OK",
+          "quantity": "82%",
+          "paperType": "Bypass Tray",
+          "level": -3,
+          "maxCapacity": 90,
+          "percentage": 82,
+          "alertLevel": "green",
+          "available": true
+        }
+      ],
+      "rawSupplyCount": 12,
+      "lastUpdated": "2026-05-26T21:55:48.229Z"
+    }
+  },
+  {
+    "id": "7caea7d3-1220-4ad6-b8c2-c7c36b8395b6",
+    "name": "IMP-INWS-CTL3-1",
+    "model": "B620",
+    "ip": "10.33.247.99",
+    "location": "Controle 3",
+    "type": "monochrome",
+    "snmpCommunity": null,
+    "createdAt": "2026-05-25T19:46:47.900Z",
+    "lastStatus": {
+      "online": true,
+      "deviceName": "IMP-INWS-CTL3-1",
+      "systemDescription": "Xerox VersaLink B620; SS 122.027.005.15400, NC 122.027.15400, UI 122.027.15400, ME 230.332, CC 122.027.15400, FI 000.000.000, OS 230.332, SU 005.016",
+      "lastChecked": "2026-05-26T21:55:48.318Z"
+    },
+    "lastSupplies": {
+      "online": true,
+      "deviceName": "IMP-INWS-CTL3-1",
+      "systemDescription": "Xerox VersaLink B620; SS 122.027.005.15400, NC 122.027.15400, UI 122.027.15400, ME 230.332, CC 122.027.15400, FI 000.000.000, OS 230.332, SU 005.016",
+      "lastChecked": "2026-05-26T21:55:48.318Z",
+      "supplies": {
+        "blackToner": {
+          "name": "Black Toner, PN ;SNCAD242290B05",
+          "level": 5100,
+          "maxCapacity": 10000,
+          "percentage": 51,
+          "display": "51%",
+          "alertLevel": "green",
+          "available": true
+        },
+        "cyanToner": {
+          "name": "Toner Ciano",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "magentaToner": {
+          "name": "Toner Magenta",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "yellowToner": {
+          "name": "Toner Amarelo",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "fuser": {
+          "name": "Fusor",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "drum": {
+          "name": "Cilindro",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "transferUnit": {
+          "name": "Unidade de Transferência",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "wasteToner": {
+          "name": "Resíduo de Toner",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        }
+      },
+      "otherSupplies": [
+        {
+          "name": "Black Imaging Unit, PN  013R00699;SNCAD24240107A",
+          "level": 100,
+          "maxCapacity": 100,
+          "percentage": 100,
+          "display": "100%",
+          "alertLevel": "green",
+          "available": true
+        }
+      ],
+      "trays": [
+        {
+          "name": "Tray 1",
+          "status": "OK",
+          "quantity": "100%",
+          "paperType": "Tray 1",
+          "level": 550,
+          "maxCapacity": 550,
+          "percentage": 100,
+          "alertLevel": "green",
+          "available": true
+        },
+        {
+          "name": "Bypass Tray",
+          "status": "Vazio",
+          "quantity": "0%",
+          "paperType": "Bypass Tray",
+          "level": 0,
+          "maxCapacity": 100,
+          "percentage": 0,
+          "alertLevel": "red",
+          "available": true
+        }
+      ],
+      "rawSupplyCount": 2,
+      "lastUpdated": "2026-05-26T21:55:48.334Z"
+    }
+  },
+  {
+    "id": "965efa19-51a6-4ae5-b86b-f5f24a4034ee",
+    "name": "SP-TALC-XER-F9",
+    "model": "C400",
+    "ip": "10.33.247.63",
+    "location": "Supervisão de Operações TB",
+    "type": "color",
+    "snmpCommunity": null,
+    "createdAt": "2026-05-25T19:47:32.642Z",
+    "lastStatus": {
+      "online": true,
+      "deviceName": "SP-TALC-XER-F9",
+      "systemDescription": "Xerox VersaLink C400; System 67.59.1, Controller 1.69.0, IOT 3.4.0, Panel 91.16.11, Boot 11.1.219, Contents 5.0.0, Plugin 3.0.1, RSEP 1.8.25",
+      "lastChecked": "2026-05-26T21:55:48.502Z"
+    },
+    "lastSupplies": {
+      "online": true,
+      "deviceName": "SP-TALC-XER-F9",
+      "systemDescription": "Xerox VersaLink C400; System 67.59.1, Controller 1.69.0, IOT 3.4.0, Panel 91.16.11, Boot 11.1.219, Contents 5.0.0, Plugin 3.0.1, RSEP 1.8.25",
+      "lastChecked": "2026-05-26T21:55:48.502Z",
+      "supplies": {
+        "blackToner": {
+          "name": "Cartucho de toner preto, PN 106R03532;SN3800CD0019160000",
+          "level": 8610,
+          "maxCapacity": 10500,
+          "percentage": 82,
+          "display": "82%",
+          "alertLevel": "green",
+          "available": true
+        },
+        "cyanToner": {
+          "name": "Cartucho de toner ciano, PN 106R03534;SN4100C00007160000",
+          "level": 3600,
+          "maxCapacity": 8000,
+          "percentage": 45,
+          "display": "45%",
+          "alertLevel": "yellow",
+          "available": true
+        },
+        "magentaToner": {
+          "name": "Cartucho de toner magenta, PN 106R03535;SNAE00CC002A180000",
+          "level": 4320,
+          "maxCapacity": 8000,
+          "percentage": 54,
+          "display": "54%",
+          "alertLevel": "green",
+          "available": true
+        },
+        "yellowToner": {
+          "name": "Cartucho de toner amarelo, PN 106R03533;SN3700C50035050000",
+          "level": 2800,
+          "maxCapacity": 8000,
+          "percentage": 35,
+          "display": "35%",
+          "alertLevel": "yellow",
+          "available": true
+        },
+        "fuser": {
+          "name": "Fusor, PN 115R00088",
+          "level": -3,
+          "maxCapacity": -2,
+          "percentage": null,
+          "display": "Não informado pelo equipamento",
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "drum": {
+          "name": "Cilindro",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "transferUnit": {
+          "name": "Unidade de Transferência",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "wasteToner": {
+          "name": "Cartucho de resíduos, PN 108R01124",
+          "level": -3,
+          "maxCapacity": -2,
+          "percentage": null,
+          "display": "Não informado pelo equipamento",
+          "alertLevel": "unavailable",
+          "available": false
+        }
+      },
+      "otherSupplies": [
+        {
+          "name": "Kit de manutenção, PN 108R01122",
+          "level": -3,
+          "maxCapacity": -2,
+          "percentage": null,
+          "display": "Não informado pelo equipamento",
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        {
+          "name": "Kit de cartucho do fotorreceptor, PN 108R01121",
+          "level": 20400,
+          "maxCapacity": 60000,
+          "percentage": 34,
+          "display": "34%",
+          "alertLevel": "yellow",
+          "available": true
+        }
+      ],
+      "trays": [
+        {
+          "name": "Bandeja 1",
+          "status": "OK",
+          "quantity": "90%",
+          "paperType": "Bandeja 1",
+          "level": -3,
+          "maxCapacity": 550,
+          "percentage": 90,
+          "alertLevel": "green",
+          "available": true
+        },
+        {
+          "name": "Bandeja manual",
+          "status": "Vazio",
+          "quantity": "0%",
+          "paperType": "Bandeja manual",
+          "level": 0,
+          "maxCapacity": 150,
+          "percentage": 0,
+          "alertLevel": "red",
+          "available": true
+        }
+      ],
+      "rawSupplyCount": 8,
+      "lastUpdated": "2026-05-26T21:55:48.552Z"
+    }
+  },
+  {
+    "id": "d4f988c9-be5a-45d4-9710-170723de1285",
+    "name": "JRM-2LC-XER-F1",
+    "model": "C7030",
+    "ip": "10.33.247.43",
+    "location": "Programação 2° andar",
+    "type": "color",
+    "snmpCommunity": null,
+    "createdAt": "2026-05-25T19:48:27.986Z",
+    "lastStatus": {
+      "online": true,
+      "deviceName": "Não informado",
+      "systemDescription": "Não informado",
+      "lastChecked": "2026-05-26T21:55:58.626Z"
+    },
+    "lastSupplies": {
+      "online": true,
+      "deviceName": "Não informado",
+      "systemDescription": "Não informado",
+      "lastChecked": "2026-05-26T21:55:58.626Z",
+      "supplies": {
+        "blackToner": {
+          "name": "Toner Preto",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "cyanToner": {
+          "name": "Toner Ciano",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "magentaToner": {
+          "name": "Toner Magenta",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "yellowToner": {
+          "name": "Toner Amarelo",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "fuser": {
+          "name": "Fusor",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "drum": {
+          "name": "Cilindro",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "transferUnit": {
+          "name": "Unidade de Transferência",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "wasteToner": {
+          "name": "Resíduo de Toner",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        }
+      },
+      "otherSupplies": [],
+      "trays": [],
+      "rawSupplyCount": 0,
+      "lastUpdated": "2026-05-26T21:55:58.628Z"
+    }
+  },
+  {
+    "id": "31ffc8eb-737f-4fc9-ba56-ab0d97b74003",
+    "name": "M1-1LC-XER-F1",
+    "model": "C7030",
+    "ip": "10.33.247.93",
+    "location": "HUB Fantástico",
+    "type": "color",
+    "snmpCommunity": null,
+    "createdAt": "2026-05-25T19:49:11.422Z",
+    "lastStatus": {
+      "online": true,
+      "deviceName": "M1-1LC-XER-F1",
+      "systemDescription": "Xerox VersaLink C7030; System 57.69.91, Controller 1.85.1, IOT 65.5.1, ADF 31.20.0, Panel 155.116.11, Boot 11.1.229, Contents 5.0.0, Plugin 3.0.1, RSEP 1.8.25",
+      "lastChecked": "2026-05-26T21:55:58.829Z"
+    },
+    "lastSupplies": {
+      "online": true,
+      "deviceName": "M1-1LC-XER-F1",
+      "systemDescription": "Xerox VersaLink C7030; System 57.69.91, Controller 1.85.1, IOT 65.5.1, ADF 31.20.0, Panel 155.116.11, Boot 11.1.229, Contents 5.0.0, Plugin 3.0.1, RSEP 1.8.25",
+      "lastChecked": "2026-05-26T21:55:58.829Z",
+      "supplies": {
+        "blackToner": {
+          "name": "Black Toner Cartridge, PN 106R03745;SN80421F0E4E080000",
+          "level": 9460,
+          "maxCapacity": 22000,
+          "percentage": 43,
+          "display": "43%",
+          "alertLevel": "yellow",
+          "available": true
+        },
+        "cyanToner": {
+          "name": "Yellow Toner Cartridge, PN 106R03746;SN80E74E08D3070000",
+          "level": 150,
+          "maxCapacity": 15000,
+          "percentage": 1,
+          "display": "1%",
+          "alertLevel": "red",
+          "available": true
+        },
+        "magentaToner": {
+          "name": "Magenta Drum Cartridge, PN 113R00780;SN80486C0145070000",
+          "level": 10692,
+          "maxCapacity": 97200,
+          "percentage": 11,
+          "display": "11%",
+          "alertLevel": "red",
+          "available": true
+        },
+        "yellowToner": {
+          "name": "Yellow Drum Cartridge, PN 113R00780;SN805F6C0145070000",
+          "level": 10692,
+          "maxCapacity": 97200,
+          "percentage": 11,
+          "display": "11%",
+          "alertLevel": "red",
+          "available": true
+        },
+        "fuser": {
+          "name": "Fuser, PN 115R00114",
+          "level": -3,
+          "maxCapacity": -2,
+          "percentage": null,
+          "display": "Não informado pelo equipamento",
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "drum": {
+          "name": "Cilindro",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "transferUnit": {
+          "name": "Transfer Roller, PN 115R00126",
+          "level": -3,
+          "maxCapacity": -2,
+          "percentage": null,
+          "display": "Não informado pelo equipamento",
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "wasteToner": {
+          "name": "Waste Cartridge, PN 115R00128",
+          "level": -3,
+          "maxCapacity": 30000,
+          "percentage": null,
+          "display": "Não informado pelo equipamento",
+          "alertLevel": "unavailable",
+          "available": false
+        }
+      },
+      "otherSupplies": [
+        {
+          "name": "Magenta Toner Cartridge, PN 106R03747;SN80BA18163F080000",
+          "level": 1050,
+          "maxCapacity": 15000,
+          "percentage": 7,
+          "display": "7%",
+          "alertLevel": "red",
+          "available": true
+        },
+        {
+          "name": "Cyan Toner Cartridge, PN 106R03748;SN80925E2602070000",
+          "level": 750,
+          "maxCapacity": 15000,
+          "percentage": 5,
+          "display": "5%",
+          "alertLevel": "red",
+          "available": true
+        },
+        {
+          "name": "Black Drum Cartridge, PN 113R00780;SN80EB451457070000",
+          "level": 46600,
+          "maxCapacity": 116500,
+          "percentage": 40,
+          "display": "40%",
+          "alertLevel": "yellow",
+          "available": true
+        },
+        {
+          "name": "Cyan Drum Cartridge, PN 113R00780;SN8018640145070000",
+          "level": 10692,
+          "maxCapacity": 97200,
+          "percentage": 11,
+          "display": "11%",
+          "alertLevel": "red",
+          "available": true
+        },
+        {
+          "name": "Transfer Belt, PN 115R00127",
+          "level": -3,
+          "maxCapacity": -2,
+          "percentage": null,
+          "display": "Não informado pelo equipamento",
+          "alertLevel": "unavailable",
+          "available": false
+        }
+      ],
+      "trays": [
+        {
+          "name": "Tray 1",
+          "status": "OK",
+          "quantity": "75%",
+          "paperType": "Tray 1",
+          "level": 390,
+          "maxCapacity": 520,
+          "percentage": 75,
+          "alertLevel": "green",
+          "available": true
+        },
+        {
+          "name": "Tray 2",
+          "status": "Baixo",
+          "quantity": "50%",
+          "paperType": "Tray 2",
+          "level": 260,
+          "maxCapacity": 520,
+          "percentage": 50,
+          "alertLevel": "yellow",
+          "available": true
+        },
+        {
+          "name": "Tray 3",
+          "status": "Baixo",
+          "quantity": "50%",
+          "paperType": "Tray 3",
+          "level": 260,
+          "maxCapacity": 520,
+          "percentage": 50,
+          "alertLevel": "yellow",
+          "available": true
+        },
+        {
+          "name": "Tray 4",
+          "status": "Baixo",
+          "quantity": "50%",
+          "paperType": "Tray 4",
+          "level": 260,
+          "maxCapacity": 520,
+          "percentage": 50,
+          "alertLevel": "yellow",
+          "available": true
+        },
+        {
+          "name": "Bypass Tray",
+          "status": "Vazio",
+          "quantity": "0%",
+          "paperType": "Bypass Tray",
+          "level": 0,
+          "maxCapacity": 90,
+          "percentage": 0,
+          "alertLevel": "red",
+          "available": true
+        }
+      ],
+      "rawSupplyCount": 12,
+      "lastUpdated": "2026-05-26T21:55:58.867Z"
+    }
+  },
+  {
+    "id": "564c0f47-e658-4685-881b-7adeadd1c03c",
+    "name": "SP-TBLC-PRESIDENCIA-F1",
+    "model": "C405",
+    "ip": "10.33.247.91",
+    "location": "Presidência",
+    "type": "color",
+    "snmpCommunity": null,
+    "createdAt": "2026-05-25T19:49:47.270Z",
+    "lastStatus": {
+      "online": true,
+      "deviceName": "SP-TBLC-PRESIDENCIA-F1",
+      "systemDescription": "Xerox VersaLink C405; System 68.59.1, Controller 1.69.0, IOT 3.4.0, ADF 42.0.0, Fax 104.8.0, Panel 91.16.11, Boot 11.1.219, Contents 5.0.0, Plugin 3.0.1, RSEP 1.8.25",
+      "lastChecked": "2026-05-26T21:55:59.048Z"
+    },
+    "lastSupplies": {
+      "online": true,
+      "deviceName": "SP-TBLC-PRESIDENCIA-F1",
+      "systemDescription": "Xerox VersaLink C405; System 68.59.1, Controller 1.69.0, IOT 3.4.0, ADF 42.0.0, Fax 104.8.0, Panel 91.16.11, Boot 11.1.219, Contents 5.0.0, Plugin 3.0.1, RSEP 1.8.25",
+      "lastChecked": "2026-05-26T21:55:59.048Z",
+      "supplies": {
+        "blackToner": {
+          "name": "Black Toner Cartridge, PN 106R03532;SN0B009F002B040000",
+          "level": 5040,
+          "maxCapacity": 10500,
+          "percentage": 48,
+          "display": "48%",
+          "alertLevel": "yellow",
+          "available": true
+        },
+        "cyanToner": {
+          "name": "Yellow Toner Cartridge, PN 106R03533;SN1E009F001C090000",
+          "level": 6240,
+          "maxCapacity": 8000,
+          "percentage": 78,
+          "display": "78%",
+          "alertLevel": "green",
+          "available": true
+        },
+        "magentaToner": {
+          "name": "Toner Magenta",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "yellowToner": {
+          "name": "Toner Amarelo",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "fuser": {
+          "name": "Fuser, PN 115R00088",
+          "level": -3,
+          "maxCapacity": -2,
+          "percentage": null,
+          "display": "Não informado pelo equipamento",
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "drum": {
+          "name": "Drum Cartridge Kit, PN 108R01121",
+          "level": 46200,
+          "maxCapacity": 60000,
+          "percentage": 77,
+          "display": "77%",
+          "alertLevel": "green",
+          "available": true
+        },
+        "transferUnit": {
+          "name": "Unidade de Transferência",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "wasteToner": {
+          "name": "Waste Cartridge, PN 108R01124",
+          "level": -3,
+          "maxCapacity": -2,
+          "percentage": null,
+          "display": "Não informado pelo equipamento",
+          "alertLevel": "unavailable",
+          "available": false
+        }
+      },
+      "otherSupplies": [
+        {
+          "name": "Magenta Toner Cartridge, PN 106R03535;SNE0009A00230A0000",
+          "level": 4800,
+          "maxCapacity": 8000,
+          "percentage": 60,
+          "display": "60%",
+          "alertLevel": "green",
+          "available": true
+        },
+        {
+          "name": "Cyan Toner Cartridge, PN 106R03534;SN0B009E002C090000",
+          "level": 6080,
+          "maxCapacity": 8000,
+          "percentage": 76,
+          "display": "76%",
+          "alertLevel": "green",
+          "available": true
+        },
+        {
+          "name": "Maintenance Kit, PN 108R01122",
+          "level": -3,
+          "maxCapacity": -2,
+          "percentage": null,
+          "display": "Não informado pelo equipamento",
+          "alertLevel": "unavailable",
+          "available": false
+        }
+      ],
+      "trays": [
+        {
+          "name": "Tray 1",
+          "status": "OK",
+          "quantity": "90%",
+          "paperType": "Tray 1",
+          "level": -3,
+          "maxCapacity": 550,
+          "percentage": 90,
+          "alertLevel": "green",
+          "available": true
+        },
+        {
+          "name": "Bypass Tray",
+          "status": "Vazio",
+          "quantity": "0%",
+          "paperType": "Bypass Tray",
+          "level": 0,
+          "maxCapacity": 150,
+          "percentage": 0,
+          "alertLevel": "red",
+          "available": true
+        }
+      ],
+      "rawSupplyCount": 8,
+      "lastUpdated": "2026-05-26T21:55:59.105Z"
+    }
+  },
+  {
+    "id": "1f761da2-21d5-4fa1-92be-f28cd392b2ca",
+    "name": "M1-TBLC-XER-F1",
+    "model": "C7030",
+    "ip": "10.33.247.80",
+    "location": "HUB Profissão Repórter",
+    "type": "monochrome",
+    "snmpCommunity": null,
+    "createdAt": "2026-05-25T19:50:21.533Z",
+    "lastStatus": {
+      "online": true,
+      "deviceName": "M1-TBLC-XER-F1",
+      "systemDescription": "Xerox VersaLink C7030; System 57.75.83, Controller 1.94.115, IOT 65.6.0, ADF 31.20.0, Panel 155.116.11, Boot 11.1.235, Contents 5.0.0, Plugin 4.0.5, RSEP 1.8.25",
+      "lastChecked": "2026-05-26T21:55:59.287Z"
+    },
+    "lastSupplies": {
+      "online": true,
+      "deviceName": "M1-TBLC-XER-F1",
+      "systemDescription": "Xerox VersaLink C7030; System 57.75.83, Controller 1.94.115, IOT 65.6.0, ADF 31.20.0, Panel 155.116.11, Boot 11.1.235, Contents 5.0.0, Plugin 4.0.5, RSEP 1.8.25",
+      "lastChecked": "2026-05-26T21:55:59.287Z",
+      "supplies": {
+        "blackToner": {
+          "name": "Black Toner Cartridge, PN 106R03745;SN800C6C10DB070000",
+          "level": 3960,
+          "maxCapacity": 22000,
+          "percentage": 18,
+          "display": "18%",
+          "alertLevel": "red",
+          "available": true
+        },
+        "cyanToner": {
+          "name": "Yellow Toner Cartridge, PN 106R03746;SN8056520D55070000",
+          "level": 4800,
+          "maxCapacity": 15000,
+          "percentage": 32,
+          "display": "32%",
+          "alertLevel": "yellow",
+          "available": true
+        },
+        "magentaToner": {
+          "name": "Magenta Drum Cartridge, PN 113R00780;SN80F5560145070000",
+          "level": 41796,
+          "maxCapacity": 97200,
+          "percentage": 43,
+          "display": "43%",
+          "alertLevel": "yellow",
+          "available": true
+        },
+        "yellowToner": {
+          "name": "Yellow Drum Cartridge, PN 113R00780;SN8062560145070000",
+          "level": 41796,
+          "maxCapacity": 97200,
+          "percentage": 43,
+          "display": "43%",
+          "alertLevel": "yellow",
+          "available": true
+        },
+        "fuser": {
+          "name": "Fuser, PN 115R00114",
+          "level": -3,
+          "maxCapacity": -2,
+          "percentage": null,
+          "display": "Não informado pelo equipamento",
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "drum": {
+          "name": "Cilindro",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "transferUnit": {
+          "name": "Transfer Roller, PN 115R00126",
+          "level": -3,
+          "maxCapacity": -2,
+          "percentage": null,
+          "display": "Não informado pelo equipamento",
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "wasteToner": {
+          "name": "Waste Cartridge, PN 115R00128",
+          "level": -3,
+          "maxCapacity": 30000,
+          "percentage": null,
+          "display": "Não informado pelo equipamento",
+          "alertLevel": "unavailable",
+          "available": false
+        }
+      },
+      "otherSupplies": [
+        {
+          "name": "Magenta Toner Cartridge, PN 106R03747;SN809C6111C5070000",
+          "level": 150,
+          "maxCapacity": 15000,
+          "percentage": 1,
+          "display": "1%",
+          "alertLevel": "red",
+          "available": true
+        },
+        {
+          "name": "Cyan Toner Cartridge, PN 106R03748;SN80AE5E0DF2070000",
+          "level": 2400,
+          "maxCapacity": 15000,
+          "percentage": 16,
+          "display": "16%",
+          "alertLevel": "red",
+          "available": true
+        },
+        {
+          "name": "Black Drum Cartridge, PN 113R00780;SN80AD560145070000",
+          "level": 29125,
+          "maxCapacity": 116500,
+          "percentage": 25,
+          "display": "25%",
+          "alertLevel": "yellow",
+          "available": true
+        },
+        {
+          "name": "Cyan Drum Cartridge, PN 113R00780;SN80D75E0145070000",
+          "level": 41796,
+          "maxCapacity": 97200,
+          "percentage": 43,
+          "display": "43%",
+          "alertLevel": "yellow",
+          "available": true
+        },
+        {
+          "name": "Transfer Belt, PN 115R00127",
+          "level": -3,
+          "maxCapacity": -2,
+          "percentage": null,
+          "display": "Não informado pelo equipamento",
+          "alertLevel": "unavailable",
+          "available": false
+        }
+      ],
+      "trays": [
+        {
+          "name": "Tray 1",
+          "status": "OK",
+          "quantity": "100%",
+          "paperType": "Tray 1",
+          "level": 520,
+          "maxCapacity": 520,
+          "percentage": 100,
+          "alertLevel": "green",
+          "available": true
+        },
+        {
+          "name": "Tray 2",
+          "status": "Baixo",
+          "quantity": "50%",
+          "paperType": "Tray 2",
+          "level": 260,
+          "maxCapacity": 520,
+          "percentage": 50,
+          "alertLevel": "yellow",
+          "available": true
+        },
+        {
+          "name": "Bypass Tray",
+          "status": "Indisponível",
+          "quantity": "Não informado pelo equipamento",
+          "paperType": "Bypass Tray",
+          "level": -3,
+          "maxCapacity": 90,
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        }
+      ],
+      "rawSupplyCount": 12,
+      "lastUpdated": "2026-05-26T21:55:59.320Z"
+    }
+  },
+  {
+    "id": "adc737e0-89aa-4273-bf88-7442f16e2930",
+    "name": "IMP-INWS-COT-1",
+    "model": "B620",
+    "ip": "10.33.247.95",
+    "location": "COT - Jornalismo",
+    "type": "monochrome",
+    "snmpCommunity": null,
+    "createdAt": "2026-05-25T19:50:58.199Z",
+    "lastStatus": {
+      "online": true,
+      "deviceName": "IMP-INWS-COT-1",
+      "systemDescription": "Xerox VersaLink B620; SS 122.027.005.15400, NC 122.027.15400, UI 122.027.15400, ME 230.332, CC 122.027.15400, FI 000.000.000, OS 230.332, SU 005.016",
+      "lastChecked": "2026-05-26T21:55:59.641Z"
+    },
+    "lastSupplies": {
+      "online": true,
+      "deviceName": "IMP-INWS-COT-1",
+      "systemDescription": "Xerox VersaLink B620; SS 122.027.005.15400, NC 122.027.15400, UI 122.027.15400, ME 230.332, CC 122.027.15400, FI 000.000.000, OS 230.332, SU 005.016",
+      "lastChecked": "2026-05-26T21:55:59.641Z",
+      "supplies": {
+        "blackToner": {
+          "name": "Black Toner, PN ;SNCAD242293AAA",
+          "level": 0,
+          "maxCapacity": 10000,
+          "percentage": 0,
+          "display": "0%",
+          "alertLevel": "red",
+          "available": true
+        },
+        "cyanToner": {
+          "name": "Toner Ciano",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "magentaToner": {
+          "name": "Toner Magenta",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "yellowToner": {
+          "name": "Toner Amarelo",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "fuser": {
+          "name": "Fusor",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "drum": {
+          "name": "Cilindro",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "transferUnit": {
+          "name": "Unidade de Transferência",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "wasteToner": {
+          "name": "Resíduo de Toner",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        }
+      },
+      "otherSupplies": [
+        {
+          "name": "Black Imaging Unit, PN  013R00699;SNCAD24234237B",
+          "level": 100,
+          "maxCapacity": 100,
+          "percentage": 100,
+          "display": "100%",
+          "alertLevel": "green",
+          "available": true
+        }
+      ],
+      "trays": [
+        {
+          "name": "Tray 1",
+          "status": "OK",
+          "quantity": "100%",
+          "paperType": "Tray 1",
+          "level": 550,
+          "maxCapacity": 550,
+          "percentage": 100,
+          "alertLevel": "green",
+          "available": true
+        },
+        {
+          "name": "Bypass Tray",
+          "status": "Vazio",
+          "quantity": "0%",
+          "paperType": "Bypass Tray",
+          "level": 0,
+          "maxCapacity": 100,
+          "percentage": 0,
+          "alertLevel": "red",
+          "available": true
+        }
+      ],
+      "rawSupplyCount": 2,
+      "lastUpdated": "2026-05-26T21:55:59.664Z"
+    }
+  },
+  {
+    "id": "30f2abbc-2bbf-423d-bb60-d6304c0fde26",
+    "name": "Pré Integração",
+    "model": "C400",
+    "ip": "10.33.247.178",
+    "location": "Pré Integração  Frente a Central",
+    "type": "color",
+    "snmpCommunity": null,
+    "createdAt": "2026-05-25T19:51:51.977Z",
+    "lastStatus": {
+      "online": true,
+      "deviceName": "VersaLink C400",
+      "systemDescription": "Xerox VersaLink C400; System 67.71.21, Controller 1.90.3, IOT 3.5.0, Panel 91.16.11, Boot 11.1.225, Contents 5.0.0, Plugin 3.0.1, RSEP 1.8.25",
+      "lastChecked": "2026-05-26T21:55:59.839Z"
+    },
+    "lastSupplies": {
+      "online": true,
+      "deviceName": "VersaLink C400",
+      "systemDescription": "Xerox VersaLink C400; System 67.71.21, Controller 1.90.3, IOT 3.5.0, Panel 91.16.11, Boot 11.1.225, Contents 5.0.0, Plugin 3.0.1, RSEP 1.8.25",
+      "lastChecked": "2026-05-26T21:55:59.839Z",
+      "supplies": {
+        "blackToner": {
+          "name": "Black Toner Cartridge, PN 106R03532;SN8E00CC001F190000",
+          "level": 8400,
+          "maxCapacity": 10500,
+          "percentage": 80,
+          "display": "80%",
+          "alertLevel": "green",
+          "available": true
+        },
+        "cyanToner": {
+          "name": "Yellow Toner Cartridge, PN 106R03533;SN9D00CE0025130000",
+          "level": 5920,
+          "maxCapacity": 8000,
+          "percentage": 74,
+          "display": "74%",
+          "alertLevel": "green",
+          "available": true
+        },
+        "magentaToner": {
+          "name": "Toner Magenta",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "yellowToner": {
+          "name": "Toner Amarelo",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "fuser": {
+          "name": "Fuser, PN 115R00088",
+          "level": -3,
+          "maxCapacity": -2,
+          "percentage": null,
+          "display": "Não informado pelo equipamento",
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "drum": {
+          "name": "Drum Cartridge Kit, PN 108R01121",
+          "level": 36000,
+          "maxCapacity": 60000,
+          "percentage": 60,
+          "display": "60%",
+          "alertLevel": "green",
+          "available": true
+        },
+        "transferUnit": {
+          "name": "Unidade de Transferência",
+          "display": "Não informado pelo equipamento",
+          "percentage": null,
+          "alertLevel": "unavailable",
+          "available": false
+        },
+        "wasteToner": {
+          "name": "Waste Cartridge, PN 108R01124",
+          "level": -3,
+          "maxCapacity": -2,
+          "percentage": null,
+          "display": "Não informado pelo equipamento",
+          "alertLevel": "unavailable",
+          "available": false
+        }
+      },
+      "otherSupplies": [
+        {
+          "name": "Magenta Toner Cartridge, PN 106R03535;SNE000CA002F0B0000",
+          "level": 6400,
+          "maxCapacity": 8000,
+          "percentage": 80,
+          "display": "80%",
+          "alertLevel": "green",
+          "available": true
+        },
+        {
+          "name": "Cyan Toner Cartridge, PN 106R03534;SNAB00C7002F160000",
+          "level": 5920,
+          "maxCapacity": 8000,
+          "percentage": 74,
+          "display": "74%",
+          "alertLevel": "green",
+          "available": true
+        },
+        {
+          "name": "Maintenance Kit, PN 108R01122",
+          "level": -3,
+          "maxCapacity": -2,
+          "percentage": null,
+          "display": "Não informado pelo equipamento",
+          "alertLevel": "unavailable",
+          "available": false
+        }
+      ],
+      "trays": [
+        {
+          "name": "Tray 1",
+          "status": "OK",
+          "quantity": "90%",
+          "paperType": "Tray 1",
+          "level": -3,
+          "maxCapacity": 550,
+          "percentage": 90,
+          "alertLevel": "green",
+          "available": true
+        },
+        {
+          "name": "Bypass Tray",
+          "status": "Vazio",
+          "quantity": "0%",
+          "paperType": "Bypass Tray",
+          "level": 0,
+          "maxCapacity": 150,
+          "percentage": 0,
+          "alertLevel": "red",
+          "available": true
+        }
+      ],
+      "rawSupplyCount": 8,
+      "lastUpdated": "2026-05-26T21:55:59.876Z"
+    }
+  }
+]
