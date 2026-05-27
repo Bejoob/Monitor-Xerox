@@ -7,7 +7,7 @@ Aplicação web para monitoramento de impressoras Xerox na rede local. O backend
 - **Frontend:** React + Vite + Tailwind CSS
 - **Backend:** Node.js + Express
 - **SNMP:** net-snmp
-- **Persistência:** arquivo JSON (`backend/data/printers.json`)
+- **Persistência:** Supabase (produção) ou arquivo JSON (local)
 
 ## Pré-requisitos
 
@@ -42,6 +42,23 @@ SNMP_TIMEOUT=5000
 | `PORT`           | Porta do servidor Express          |
 | `SNMP_COMMUNITY` | Community SNMP padrão              |
 | `SNMP_TIMEOUT`   | Timeout da consulta SNMP (ms)      |
+| `SUPABASE_URL`   | URL do projeto Supabase (opcional) |
+| `SUPABASE_SERVICE_ROLE_KEY` | Chave service role (opcional) |
+
+Se `SUPABASE_URL` e `SUPABASE_SERVICE_ROLE_KEY` estiverem preenchidas, o backend passa a salvar/ler impressoras no Supabase.  
+Sem essas variáveis, usa arquivo local (`backend/data/printers.json`).
+
+### SQL da tabela no Supabase
+
+Execute no SQL Editor do Supabase:
+
+```sql
+create table if not exists public.printers (
+  id text primary key,
+  data jsonb not null,
+  created_at timestamptz not null default now()
+);
+```
 
 ## Executar em desenvolvimento
 
