@@ -9,6 +9,13 @@ const PORT = process.env.PORT || 3001;
 app.use(cors());
 app.use(express.json());
 
+app.get('/health', (_req, res) => {
+  res.json({
+    status: 'ok',
+    snmpCommunity: process.env.SNMP_COMMUNITY || 'public',
+    snmpTimeout: process.env.SNMP_TIMEOUT || '5000',
+  });
+});
 app.get('/api/health', (_req, res) => {
   res.json({
     status: 'ok',
@@ -17,6 +24,7 @@ app.get('/api/health', (_req, res) => {
   });
 });
 
+app.use('/printers', printersRouter);
 app.use('/api/printers', printersRouter);
 
 app.use((err, _req, res, _next) => {
